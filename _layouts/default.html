@@ -1,3 +1,5 @@
+<!-- This is the layout for the home page -->
+
 <!DOCTYPE html> {% if site.lang %}
 <html lang="{{ site.lang }}">
   {% else %}
@@ -70,13 +72,17 @@
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
+        <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
       </head>
 
       <body id="page-top">
         <!-- Navigation -->
         {% include navigation.html %}
         <!-- Header -->
-        {% include header.html %} {{ content }}
+        {% include header.html %}
+
+        <!-- This content space is where your subsequent pages that use this layout will be dumped at -->
+        {{ content }}
 
         <!-- Footer -->
         {% include footer.html %}

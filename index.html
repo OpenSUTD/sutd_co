@@ -3,7 +3,10 @@ layout: default
 title: SUTDCO
 ---
 
+<!-- The most intensive document on this site -->
+
 <style>
+  /* These are the icon 'buttons' showcasing our sections */
   .woodwinds {
     height: 112px;
     width: 112px;
@@ -66,7 +69,7 @@ title: SUTDCO
   </div>
 </section>
 
-<!-- Sections -->
+<!-- The 4 Sections -->
 <section
   class="content-section bg-primary text-white text-center"
   id="sections"
@@ -77,36 +80,49 @@ title: SUTDCO
     </div>
     <div class="row">
       <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-        <a href="/woodwinds/">
-          <div class="service-icon rounded-circle mx-auto mb-3 woodwinds"></div>
-        </a>
+        <div class="service-icon rounded-circle mx-auto mb-3">
+          <a href="/woodwinds/">
+            <!-- that's the link to go to that page, if it exists -->
+            <div class="woodwinds"></div>
+          </a>
+        </div>
+
         <h4>
           <strong>Woodwinds</strong>
         </h4>
         <p class="text-faded mb-0">Dizi, Suona, etc.</p>
       </div>
       <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-        <a href="/strings/">
-          <div class="service-icon rounded-circle mx-auto mb-3 strings"></div>
-        </a>
+        <div class="service-icon rounded-circle mx-auto mb-3">
+          <a href="/strings/">
+            <div class="strings"></div>
+          </a>
+        </div>
+
         <h4>
           <strong>Strings</strong>
         </h4>
-        <p class="text-faded mb-0">Erhu, Guzheng, etc.</p>
+        <p class="text-faded mb-0">The Hu family</p>
       </div>
       <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-        <a href="/plucking/">
-          <div class="service-icon rounded-circle mx-auto mb-3 plucking"></div>
-        </a>
+        <div class="service-icon rounded-circle mx-auto mb-3">
+          <a href="/plucking/">
+            <div class="plucking"></div>
+          </a>
+        </div>
+
         <h4>
           <strong>Plucking</strong>
         </h4>
         <p class="text-faded mb-0">Zhongruan, Liuqin, etc.</p>
       </div>
       <div class="col-lg-3 col-md-6">
-        <a href="/percussion/">
-          <div class="service-icon rounded-circle mx-auto mb-3 perc"></div>
-        </a>
+        <div class="service-icon rounded-circle mx-auto mb-3">
+          <a href="/percussion/">
+            <div class="perc"></div>
+          </a>
+        </div>
+
         <h4>
           <strong>Percussion</strong>
         </h4>
@@ -129,9 +145,10 @@ title: SUTDCO
       music but no music background, don’t fret! Join us now to indulge in the
       world of music and lots more fun will be waiting for you.
     </h4>
-    <a class="btn btn-dark btn-xl js-scroll-trigger" href="#footer"
-      >Contact us</a
-    >
+    <a class="btn btn-dark btn-xl js-scroll-trigger" href="#footer">
+      <!-- the hash scrolls to that part of the page -->
+      Contact us
+    </a>
   </div>
 </section>
 
@@ -144,7 +161,7 @@ title: SUTDCO
     </div>
     <div class="row no-gutters">
       <div class="col-lg-6">
-        <span class="portfolio-item" id="ig1" style="cursor: pointer;">
+        <span class="portfolio-item" id="ig1">
           <span class="caption">
             <span class="caption-content">
               <h2>Guest-playing with Reverberance @Esplanade</h2>
@@ -160,7 +177,7 @@ title: SUTDCO
         </span>
       </div>
       <div class="col-lg-6">
-        <span class="portfolio-item" id="ig2" style="cursor: pointer;">
+        <span class="portfolio-item" id="ig2">
           <span class="caption">
             <span class="caption-content">
               <h2>Lunchtime Performance @SUTD</h2>
@@ -176,7 +193,7 @@ title: SUTDCO
         </span>
       </div>
       <div class="col-lg-6">
-        <span class="portfolio-item" id="yt1" style="cursor: pointer;">
+        <span class="portfolio-item" id="yt1">
           <span class="caption">
             <span class="caption-content">
               <h2>Impressions II Concert</h2>
@@ -192,7 +209,7 @@ title: SUTDCO
         </span>
       </div>
       <div class="col-lg-6">
-        <span class="portfolio-item" id="yt2" style="cursor: pointer;">
+        <span class="portfolio-item" id="yt2">
           <span class="caption">
             <span class="caption-content">
               <h2>Impressions Concert</h2>
@@ -215,42 +232,41 @@ title: SUTDCO
 </section>
 
 {% include modals.html %}
+<!-- Definitely include this -->
 
 <script>
-  var myModal;
-  var ytStopper;
+  var myModal; //this is to get and show the respective modals when they are activated
+  var ytStopper; //this is to get the youtube players so that they stop playing after the modal closes
 
+  // Get the close buttons for each modal
   var closeig1 = document.getElementsByClassName("close")[0];
   var closeig2 = document.getElementsByClassName("close")[1];
   var closeyt1 = document.getElementsByClassName("close")[2];
   var closeyt2 = document.getElementsByClassName("close")[3];
 
-  // Get the button that opens the modal
+  // Get each highlight box
   var ig1 = document.getElementById("ig1");
   var ig2 = document.getElementById("ig2");
   var yt1 = document.getElementById("yt1");
   var yt2 = document.getElementById("yt2");
 
-  // When the user clicks on the button, open the modal
+  // When the user clicks on the specific highlight box, open the respective modal
   ig1.onclick = function () {
     myModal = document.getElementById("ig1Modal");
     myModal.style.display = "block";
   };
-
   ig2.onclick = function () {
     myModal = document.getElementById("ig2Modal");
     myModal.style.display = "block";
   };
-
   yt1.onclick = function () {
     myModal = document.getElementById("yt1Modal");
-    ytStopper = myModal.getElementsByTagName("iframe")[0];
+    ytStopper = myModal.getElementsByTagName("iframe")[0]; //find the youtube frame
     myModal.style.display = "block";
   };
-
   yt2.onclick = function () {
     myModal = document.getElementById("yt2Modal");
-    ytStopper = myModal.getElementsByTagName("iframe")[0];
+    ytStopper = myModal.getElementsByTagName("iframe")[0]; //find the youtube frame
     myModal.style.display = "block";
   };
 
@@ -264,9 +280,11 @@ title: SUTDCO
     }
   };
 
+  //I also added the functionality of closing the modal when ESC (keycode 27) is pressed
   window.onkeydown = function (event) {
     if (event.keyCode == 27) {
       myModal.style.display = "none";
+      //if it is a yt modal, setting src=src reloads the vid and stops it from playing after the modal closes. Probably not the right way to do it but it works
       if (ytStopper != null) {
         ytStopper.src = ytStopper.src;
       }

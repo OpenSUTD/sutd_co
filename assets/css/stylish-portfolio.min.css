@@ -258,6 +258,7 @@ h6 {
   overflow: hidden;
   max-width: 530px;
   margin: auto auto 1rem;
+  cursor: pointer;
 }
 .portfolio-item .caption {
   display: -webkit-box;

@@ -1,3 +1,5 @@
+<!-- This is the layout for anything else other than index.html -->
+
 <!DOCTYPE html> {% if site.lang %}
 <html lang="{{ site.lang }}">
   {% else %}
@@ -13,6 +15,7 @@
         font-size: 4em;
         line-height: 1;
         letter-spacing: -1px;
+        text-align: center;
       }
     </style>
     <html lang="en">
@@ -82,10 +85,12 @@
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
+        <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
       </head>
 
       <body id="page-top">
-        <!-- Header -->
+        <!-- Note that navigation.html is not included because I made pretty much only workable on index.html, but you're free to change -->
+        <!-- Page header, note that this is a smaller version of default header, with no button as well -->
         <header class="pagemasthead d-flex">
           <div class="container text-center my-auto">
             <a href="/" style="color: initial; text-decoration: none;" ;>
@@ -96,6 +101,7 @@
         </header>
 
         <div class="pagetext">
+          <!-- This content space is where your subsequent pages that use this layout will be dumped at -->
           {{content}}
         </div>
 
