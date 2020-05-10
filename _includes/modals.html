@@ -1,9 +1,11 @@
+<!-- Modals are the background; the veil that covers the entire page (you can change the opacity). This external document is for all modals used in index.html -->
+
 <style>
-  /* The Modal (background) */
+  /* The Modal */
   .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 1; /* Bring to on top of index.html */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -12,8 +14,7 @@
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
   }
-
-  /* Modal Content/Box */
+  /* Modal Content Box */
   .modal-content {
     background-color: #fefefe;
     margin: 5% auto; /* 5% from the top and centered */
@@ -24,7 +25,6 @@
     min-height: auto;
     align-items: center;
   }
-
   /* The Close Button */
   .close {
     color: #aaa;
@@ -39,6 +39,7 @@
     text-decoration: none;
     cursor: pointer;
   }
+  /* to hold the youtube vids */
   .ytContainer {
     position: relative;
     width: 100%;
@@ -54,11 +55,12 @@
   }
 </style>
 
-<!-- The Modal -->
+<!-- 1st Instagram Modal -->
 <div id="ig1Modal" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
+    <!--                                                                  FROM HERE                                                    -->
     <blockquote
       class="instagram-media"
       data-instgrm-captioned
@@ -333,14 +335,16 @@
       </div>
     </blockquote>
     <script async src="//www.instagram.com/embed.js"></script>
+    <!--                                                      TO HERE, is where you paste the embed ig post code                                                    -->
   </div>
 </div>
 
-<!-- The Modal -->
+<!-- 2nd Instagram Modal -->
 <div id="ig2Modal" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
+    <!--                                                                  FROM HERE                                                    -->
     <blockquote
       class="instagram-media"
       data-instgrm-captioned
@@ -617,15 +621,19 @@
       </div>
     </blockquote>
     <script async src="//www.instagram.com/embed.js"></script>
+    <!--                                                      TO HERE, is where you paste the embed ig post code                                                    -->
   </div>
 </div>
 
-<!-- The Modal -->
+<!-- Note that I'm embedding YT playlists -->
+
+<!-- 1st Youtube Modal -->
 <div id="yt1Modal" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
     <div class="ytContainer">
+      <!-- youtube embed code is a lot simpler, but do remember to put it within this ytContainer -->
       <iframe
         src="https://www.youtube.com/embed/videoseries?list=PLV_Gsq0eeGS-tSiihU_cYTHEn23leoU3V"
         frameborder="0"
@@ -636,12 +644,13 @@
   </div>
 </div>
 
-<!-- The Modal -->
+<!-- 2nd Youtube Modal -->
 <div id="yt2Modal" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
     <div class="ytContainer">
+      <!-- youtube embed code is a lot simpler, but do remember to put it within this ytContainer -->
       <iframe
         src="https://www.youtube.com/embed/videoseries?list=PLV_Gsq0eeGS9VZhxM4GJOdT6YuWZeOUmU"
         frameborder="0"
@@ -651,3 +660,6 @@
     </div>
   </div>
 </div>
+
+<!-- This Modal is just for the sidebar menu -->
+<div id="menuModal" class="modal"></div>

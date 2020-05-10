@@ -4,6 +4,8 @@ title: About Us
 permalink: /about/
 ---
 
+<!-- Again bad prog practice from me, mixing markdown and html, sorry -->
+
 # About us
 
 SUTD Chinese Orchestra (SUTDCO) started 5 years back in 2015 with just 4 passionate members and has since grown to a promising size with the skills required to perform professional grade musical pieces. SUTDCO has then been actively involved in various performance opportunities, including school events and external invitations. 2018 marked an extraordinary year for SUTDCO as we held our first concert – Impressions. In 2019, we continued our legacy and held our second concert – Impressions II.
