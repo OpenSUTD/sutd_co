@@ -58,6 +58,7 @@ h6 {
   color: #fff;
   background: rgba(52, 58, 64, 0.5);
   line-height: 45px;
+  z-index: 2;
 }
 .scroll-to-top:focus,
 .scroll-to-top:hover {
@@ -140,7 +141,7 @@ h6 {
 }
 #sidebar-wrapper {
   position: fixed;
-  z-index: 2;
+  z-index: 4;
   right: 0;
   width: 250px;
   height: 100%;
