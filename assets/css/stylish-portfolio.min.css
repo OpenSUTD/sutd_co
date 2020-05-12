@@ -165,6 +165,7 @@ h6 {
   text-decoration: none;
   color: #fff;
   padding: 15px;
+  font-size: 18px;
 }
 .sidebar-nav li a:hover {
   text-decoration: none;
@@ -208,6 +209,7 @@ h6 {
   background: rgba(52, 58, 64, 0.5);
   line-height: 50px;
   z-index: 999;
+  font-size: 20px;
 }
 .menu-toggle:focus,
 .menu-toggle:hover {
