@@ -48,24 +48,7 @@ You can check our `about.md` for an example. After that chunk, just write everyt
 
 ### Editing CSS and JS
 
-The following are the JS and CSS sheets edited in our site:
-
-1. `stylish-portfolio.min.js` under 'assets -> js'
-2. `stylish-portfolio.min.css` under 'assets -> css'
-3. `bootstrap.min.css` under 'vendor -> bootstrap -> css'
-
-You might have noticed that they all have that 'min' in their name; what it means is that it's a **minified** version of its corresponding sheet. Minifying is a way for sites to load faster by removing all newlines and comments and what not, so it looks close to unreadable by us but apparently it speeds things up.
-
-_This also means that the site builds from these minified sheets, so any changes will have to be made in these sheets, instead of the original one._
-
-I don't think it will help a lot for our JS since it's fairly short (and it's good to have comments for those scripts, and also I found some inconsistencies anyway), but I think it will be useful for the CSS sheets. So, what I recommend is:
-
-1. If you have installed the 'Prettier' extension for Visual Studio, go to the min sheets, and save (CTRL+S). This undoes the minification, and indents everything for you.
-2. Edit in the min sheets, then once you're ready, use [this](https://www.minifier.org/) to minify it before pushing.
-
-I've never touched the original sheets; I don't know if this is the right programming practice though.
-
-In any case, learn to search for classes in those sheets, since that will tell you what styles are being applied. Likewise, you can write your own classes in there as well, as I did with `pagemasthead`, etc. Same for the JS.
+Still editing
 
 ---
 
