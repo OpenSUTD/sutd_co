@@ -1,6 +1,6 @@
 # SUTDCO Homepage Documentation
 
-Updated on 15th May 2020.
+Updated on 16th May 2020.
 
 Contact: chineseorchestra@club.sutd.edu.sg
 
@@ -12,23 +12,23 @@ Special thanks to OpenSUTD.
 
 ## Introduction
 
-This is the repository for SUTD Chinese Orchestra Club's homepage, which can be found here: https://sutdco.opensutd.org/. This README is mainly for documenting everything that is done with the site, as well as to serve as a guide and platform for future Committees should they decide to continue using this resource. If you belong to this group but are only just getting started, I recommend reading from the Installation section.
+This is the repository for SUTD Chinese Orchestra Club's homepage, which can be found here: https://sutdco.opensutd.org/. This README is mainly to serve as a guide and platform for future Committees should they decide to continue using this resource, as well as some documentation.
+
+We're using Jekyll, a static site generator, published on Github Pages under the OpenSUTD domain. The theme used (as of May 2020) is ["Stylish Portfolio"](https://github.com/vidhyav656/startbootstrap-stylish-portfolio-jekyll); this is its [default view](https://vidhyav656.github.io/startbootstrap-stylish-portfolio-jekyll/). You can easily find more themes by googling for "Jekyll Themes", **but** note that changing the theme essentially means a complete rebuild, since each theme has its own design and content placement (which is the point of the theme, right). If you're going this route, but only just starting out, head to the [Installation](#installation-and-everything-else) section.
+
+Alternatively, you can add/modify design and features to the site, in which case I will direct you to the [Documentation](#documentation) section.
+
+If you're only updating the content of the site, the next section should be the most relevant and important.
 
 ---
 
 ---
 
-## Organisation and workflow
-
-### General
-
-We're using Jekyll, a site generator, publishing on Github Pages, hosted by the OpenSUTD domain. The theme used (as of May 2020) is ["Stylish Portfolio"](https://github.com/vidhyav656/startbootstrap-stylish-portfolio-jekyll); this is its [default view](https://vidhyav656.github.io/startbootstrap-stylish-portfolio-jekyll/). You can easily find more themes by googling for "Jekyll Themes".
-
----
+## Content updates
 
 ### Writing new pages
 
-All pages are in Markdown format, because it is easier to get into writing the content. One disadvantage, however, is that in Markdown you can't customise too much, and if you want heavy styling you'll have to do HTML within the Markdown or straight up write in full HTML. In any case:
+All pages are in Markdown format, because it is easier to get to writing the content. One disadvantage, however, is that in Markdown you can't customise too much, and if you want heavy styling you'll have to do HTML within the Markdown or straight up write in full HTML. In any case:
 
 To add new pages, simply add a new file, name it whatever you want, with the extension `.md`. Then, input the following at the start of the document:
 
@@ -46,39 +46,49 @@ You can check our `about.md` for an example. After that chunk, just write everyt
 
 ---
 
-### Editing CSS and JS
+### Adding new Highlights
 
-Still editing
+To change the Highlights, you'll have to go to the `highlights.yml` file and change the properties for it (title, date, etc.). The embed code will have to be taken from the post/video you want to feature, and please follow the instructions I placed in the comments in that file.
 
 ---
 
-### Adding new Highlights
+---
 
-To add new Highlights, you'll have to go to the `modals.html` file and change the embed code for the respective boxes. Speaking of that file,
+## Documentation
+
+I suppose this isn't really documentation, just more advanced things and structure to look out for in the repo.
+=======
+---
+
+### Editing CSS and JS
+
+WIP
 
 ---
 
 ### \_layouts & \_includes & \_posts
 
-it is located inside the \_includes folder. This folder contains extremely important code that define how the site looks like. Likewise, for \_layouts folder, as the name suggests, it contains the code for how each page looks like.
+The \_includes folder contains extremely important code that define how the site looks like. Likewise, for \_layouts folder, as the name suggests, it contains the code for how each page looks like.
 
-Now, for \_posts, this is supposed to contain Markdown documents, same as your individual Markdown pages. However, this is more for blog posts, where there's a date and things like that. More info can be found [here](https://jekyllrb.com/docs/posts/).
+Now, for \_posts, this is supposed to contain Markdown documents just like the individual Markdown pages. However, this is more for blogging, where there's a date and things like that. We don't use it, but if you can find a way to, why not. More info can be found [here](https://jekyllrb.com/docs/posts/).
 
 ---
 
 ### Others
 
-1. Commenting in js: //your comment
+1. Commenting in JS: //your comment
 
-   Commenting in css and jquery: /\*your comment\*/
+   Commenting in CSS and jQuery: /\*your comment\*/
 
-   Commenting in html: \<!-- your comment -->
+   Commenting in HTML and Markdown: \<!-- your comment -->
+
+   Commenting in YAML: #your comment
 
 2. I do not recommend touching anything inside of \_site, since I think that is what's being used to build the site. All changes you make outside will be translated in there, don't worry.
 
 3. Images (img) and icons (svg) are all placed inside of assets, and I recommend doing so as well. The only exception is **favicon**.
 
-4. Favicon is the little icon that shows up on your browser tab, or on your browser's favourites page. I used this [site](https://favicon.io/) to generate everything from our png. These should be placed in the root directory if I'm not mistaken, and then those codes be placed in the \<head> section of the layouts (default.html, page.html, etc.)
+4. Favicon is the little icon that shows up on your browser tab and on your mobile browser's favourites. I used this [site](https://favicon.io/) to generate everything from our logo. These should be placed in the root directory if I'm not mistaken, and then those codes that they give should be placed in the \<head> section of the layouts (default.html, page.html, etc.)
 
 ---
 
