@@ -57,7 +57,7 @@ To change the Highlights, you'll have to go to the `highlights.yml` file and cha
 ## Documentation
 
 I suppose this isn't really documentation, just more advanced things and structure to look out for in the repo.
-=======
+
 ---
 
 ### Editing CSS and JS
