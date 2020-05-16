@@ -62,7 +62,7 @@ For reference:
 - 'bg-masthead.jpg' is the big image on our home screen, the first image that greets you
 - 'bg-callout.jpg' is the background image for the 'Join us' section.
 
-Alternatively, you can leave the new name in, just that you'll need to rename every mention in the code, which isn't too tough to do and should be the proper practice.
+Alternatively, you can leave the new name in, just that you'll need to rename every mention in the code.
 
 ---
 
@@ -176,3 +176,6 @@ Once you have cloned the base repository, _I highly recommend adding a new **bra
 **Pushing to origin**: Kept talking about this but never elaborated. This generally means applying the changes made to the code by you. Before pushing, you will need to **commit** these changes, which can be all be done within Github Desktop. You will generally push to your branch/fork, then start a **pull request**.
 
 **Pull Request**: A pull request is received by the collaborators of the base repository (which might include yourself). Essentially, when you send a pull request, you're asking the base repository owners to accept and 'pull' your code. Then, if the changes are verified to be fine, a **merge** can be done, which will see the branch's changes applied to the base repository, and by extension the website.
+
+## Troubleshooting
+WIP
