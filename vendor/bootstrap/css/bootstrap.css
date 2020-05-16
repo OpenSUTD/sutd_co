@@ -7780,6 +7780,10 @@ button.bg-dark:focus {
   margin-top: 0 !important;
 }
 
+.mr-me {
+  margin-right: 1vw;
+}
+
 .mr-0,
 .mx-0 {
   margin-right: 0 !important;
