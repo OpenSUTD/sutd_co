@@ -16,7 +16,7 @@ This is the repository for SUTD Chinese Orchestra Club's homepage, which can be 
 
 We're using Jekyll, a static site generator, published on Github Pages under the OpenSUTD domain. The theme used (as of May 2020) is ["Stylish Portfolio"](https://github.com/vidhyav656/startbootstrap-stylish-portfolio-jekyll); this is its [default view](https://vidhyav656.github.io/startbootstrap-stylish-portfolio-jekyll/). You can easily find more themes by googling for "Jekyll Themes", **but** note that changing the theme essentially means a complete rebuild, since each theme has its own design and content placement (which is the point of the theme, right). If you're going this route, but only just starting out, head to the [Installation](#installation-and-everything-else) section.
 
-Alternatively, you can add/modify design and features to the site, in which case I will direct you to the [Documentation](#documentation) section.
+Alternatively, you can add/modify design and features to the site, in which case I will direct you to the [Documentation](#documentation) section and beyond.
 
 If you're only updating the content of the site, the next section should be the most relevant and important.
 
@@ -28,9 +28,9 @@ If you're only updating the content of the site, the next section should be the 
 
 ### Writing new pages
 
-All pages are in Markdown format, because it is easier to get to writing the content. One disadvantage, however, is that in Markdown you can't customise too much, and if you want heavy styling you'll have to do HTML within the Markdown or straight up write in full HTML. In any case:
+All pages are written in Markdown format, because it is easier to get to writing the content. One disadvantage, however, is that in Markdown you can't customise too much, and if you want heavy styling you'll have to do HTML within the Markdown or straight up write in full HTML. In any case:
 
-To add new pages, simply add a new file, name it whatever you want, with the extension `.md`. Then, input the following at the start of the document:
+To add new pages, go to the `pages` folder, and add a new file. Name it whatever you want, with the extension `.md`. Then, copy/paste the following (called 'front matter') at the start of the document:
 
 `---`
 
@@ -42,13 +42,27 @@ To add new pages, simply add a new file, name it whatever you want, with the ext
 
 `---`
 
-You can check our `about.md` for an example. After that chunk, just write everything with Markdown formatting.
+You can check our `about.md` for an example. After editing the above front matter, just write everything as you would for Markdown. You are, of course, free to edit the other pages as well.
 
 ---
 
 ### Adding new Highlights
 
-To change the Highlights, you'll have to go to the `highlights.yml` file and change the properties for it (title, date, etc.). The embed code will have to be taken from the post/video you want to feature, and please follow the instructions I placed in the comments in that file.
+To add/change Highlights, go to the `_data` folder -> `highlights.yml` file and change the properties for it (title, date, etc.). The embed code will have to be taken from the post/video you want to feature, and please follow the instructions I placed in the comments in that file.
+
+---
+
+### Images
+
+All our images are in `assets` -> `img`, while custom icons are in `assets` -> `svg`. To use them, call them like this: `/assets/img/portfolio-1.jpg`. To replace the images, you can put in a new image, delete the old one, then rename the new image file to the deleted file name.
+
+For reference:
+
+- 'portfolio-x.jpg' are the small, individual background images on the Highlights panels
+- 'bg-masthead.jpg' is the big image on our home screen, the first image that greets you
+- 'bg-callout.jpg' is the background image for the 'Join us' section.
+
+Alternatively, you can leave the new name in, just that you'll need to rename every mention in the code, which isn't too tough to do and should be the proper practice.
 
 ---
 
@@ -56,7 +70,7 @@ To change the Highlights, you'll have to go to the `highlights.yml` file and cha
 
 ## Documentation
 
-I suppose this isn't really documentation, just more advanced things and structure to look out for in the repo.
+I suppose this isn't really documentation, just more advanced things and structure to look out for in the repo. Also, some site changes take time to execute, so do be patient hahah.
 
 ---
 
@@ -78,7 +92,7 @@ Now, for \_posts, this is supposed to contain Markdown documents just like the i
 
 1. Commenting in JS: //your comment
 
-   Commenting in CSS and jQuery: /\*your comment\*/
+   Commenting in CSS: /\*your comment\*/
 
    Commenting in HTML and Markdown: \<!-- your comment -->
 
