@@ -113,13 +113,13 @@ title: SUTDCO
           心弦。在2019年，我们很荣幸能够延续前一年的传奇，举办了我们第二场音乐会
           - 心弦（二）。
         </p>
-        <a class="btn btn-dark btn-xl js-scroll-trigger" href="/about/">More</a>
+        <a class="btn btn-dark btn-xl" href="/about/">More</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- The 4 Sections -->
+<!-- Who we are -->
 <section
   class="content-section bg-primary text-white text-center"
   id="sections"
@@ -128,7 +128,7 @@ title: SUTDCO
     <div class="content-section-heading">
       <h2 class="mb-5">Our Sections</h2>
     </div>
-    <div class="row">
+    <div class="row" style="padding-bottom: 50px;">
       <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
         <div class="service-icon rounded-circle mx-auto mb-3">
           <a href="/woodwinds/">
@@ -179,12 +179,15 @@ title: SUTDCO
         <p class="text-faded mb-0">"don't spasm"</p>
       </div>
     </div>
+    <a class="btn btn-dark btn-xl" href="/people/"
+      >Our Conductors and Instructors</a
+    >
   </div>
 </section>
 
 <!-- Callout -->
 <section class="callout">
-  <div class="container text-center" style="color: #292930;">
+  <div class="container text-center" style="color: #ffffff;">
     <h2 class="mx-auto mb-4">
       Join us today!
     </h2>
@@ -195,7 +198,7 @@ title: SUTDCO
       interest in music but no musical background, don’t fret! Join us now to
       indulge in the world of music and lots more fun will be waiting for you.
     </h4>
-    <a class="btn btn-dark btn-xl js-scroll-trigger" href="#footer">
+    <a class="btn btn-primary btn-xl" href="/contact/">
       <!-- the hash scrolls to that part of the page -->
       Contact us
     </a>
@@ -204,18 +207,18 @@ title: SUTDCO
 
 <!-- Highlights -->
 <section class="content-section" id="highlights">
-  <div class="container">
-    <div class="content-section-heading text-center">
-      <h3 class="text-secondary mb-0">Highlights</h3>
+  <div class="container text-center">
+    <div class="content-section-heading">
+      <h5 class="text-secondary mb-0">Highlights</h5>
       <h2 class="mb-5">What we've been up to</h2>
     </div>
-    <div class="row no-gutters">
+    <div class="row no-gutters" style="padding-bottom: 50px;">
       <!-- I'm using a for loop here to iterate through highlights.yml, so that it is easier to edit and update the featured posts -->
       {% for items in site.data.highlights %}
       <div class="col-lg-6">
         <span class="portfolio-item" id="{{ items.id }}">
           <span class="caption">
-            <span class="caption-content">
+            <span class="caption-content text-left">
               <h2>{{ items.title }}</h2>
               <p class="mb-0">{{ items.date }}</p>
             </span>
@@ -225,9 +228,7 @@ title: SUTDCO
       </div>
       {% endfor %}
     </div>
-    <h4 style="text-align: center; margin-top: 5rem; margin-bottom: -10rem;">
-      And more! Connect with us on any of the following platforms:
-    </h4>
+    <a class="btn btn-primary btn-xl" href="/events/">And more!</a>
   </div>
 </section>
 
