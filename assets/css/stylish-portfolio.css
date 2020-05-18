@@ -98,14 +98,14 @@ h6 {
       linear,
       left top,
       right top,
-      from(rgba(255, 255, 255, 0.1)),
-      to(rgba(255, 255, 255, 0.1))
+      from(rgba(0, 0, 0, 0.2)),
+      to(rgba(0, 0, 0, 0.2))
     ),
     url("../img/bg-masthead.jpg");
   background: linear-gradient(
       90deg,
-      rgba(255, 255, 255, 0.1) 0%,
-      rgba(255, 255, 255, 0.1) 100%
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
     ),
     url("../img/bg-masthead.jpg");
   background-position: center center;
@@ -124,14 +124,14 @@ h6 {
       linear,
       left top,
       right top,
-      from(rgba(255, 255, 255, 0.1)),
-      to(rgba(255, 255, 255, 0.1))
+      from(rgba(0, 0, 0, 0.2)),
+      to(rgba(0, 0, 0, 0.2))
     ),
     url("../img/bg-masthead.jpg");
   background: linear-gradient(
       90deg,
-      rgba(255, 255, 255, 0.1) 0%,
-      rgba(255, 255, 255, 0.1) 100%
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
     ),
     url("../img/bg-masthead.jpg");
   background-position: center center;
@@ -270,14 +270,14 @@ h6 {
       linear,
       left top,
       right top,
-      from(rgba(255, 255, 255, 0.1)),
-      to(rgba(255, 255, 255, 0.1))
+      from(rgba(255, 255, 255, 0)),
+      to(rgba(255, 255, 255, 0))
     ),
     url("../img/bg-callout.jpg");
   background: linear-gradient(
       90deg,
-      rgba(255, 255, 255, 0.1) 0%,
-      rgba(255, 255, 255, 0.1) 100%
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0) 100%
     ),
     url("../img/bg-callout.jpg");
   background-position: center center;
@@ -409,16 +409,16 @@ a:active {
 }
 
 .btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
-  color: #fff !important;
+  background-color: #209726 !important;
+  border-color: #209726 !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .btn-secondary:hover,
 .btn-secondary:focus,
 .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+  background-color: #186e1c !important;
+  border-color: #186e1c !important;
 }
 
 .btn-dark {
