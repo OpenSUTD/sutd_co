@@ -62,7 +62,7 @@ For reference:
 - 'bg-masthead.jpg' is the big image on our home screen, the first image that greets you
 - 'bg-callout.jpg' is the background image for the 'Join us' section.
 
-Alternatively, you can leave the new name in, just that you'll need to rename every mention in the code, which isn't too tough to do and should be the proper practice.
+Alternatively, you can leave the new name in, just that you'll need to rename every mention in the code.
 
 ---
 
@@ -160,19 +160,35 @@ And that's it.
 
 I don't know much about the nitty-gritty of Github either, but I figured I'll still write this section since the entire site is hosted on Github Pages so you _will_ have to use it. The basics of its workings are as follows:
 
-**Base repository**: Also called the 'master' branch. If you're reading this on Github, this is the place. This is where the entire, original code will be found. To edit, you'll either need to 1. **fork**, or 2. be granted access.
+- **Base repository**: 
 
-**Forking**: A fork can be done by literally anyone so long as they have a Github account. A fork is essentially a **linked clone** of the base repository. Others can see your fork since it is tied to your profile, but otherwise you are free to edit everything, including fully rebuilding it. If I'm not mistaken, you can even fetch new changes in the base repository. To push changes to the base repository, a **pull request** has to be made to the base repository.
+Also called the 'master' branch. If you're reading this on Github, this is the place. This is where the entire, original code will be found. To edit, you'll either need to 1. **fork**, or 2. be granted access.
 
-**Access as collaborator**: As the name says, the repository admin can grant write permissions to collaborators, in which case you can then directly **clone** the base repository.
+- **Forking**: 
 
-**Cloning**: Speaking of cloning, you actually don't need to be a collaborator to clone; it's similar to forking in that it clones, but it's saved as a local copy instead of a linked fork (you can think of it as the Github automatically uploading your clone for you). You can clone from the Github interface, or via **Github Desktop**.
+A fork can be done by literally anyone so long as they have a Github account. A fork is essentially a **linked clone** of the base repository. Others can see your fork since it is tied to your profile, but otherwise you are free to edit everything, including fully rebuilding it. If I'm not mistaken, you can even fetch new changes in the base repository. To push changes to the base repository, a **pull request** has to be made to the base repository.
 
-**Github Desktop**:
+- **Access as collaborator**: 
+
+As the name says, the repository admin can grant write permissions to collaborators, in which case you can then directly **clone** the base repository.
+
+- **Cloning**: 
+
+Speaking of cloning, you actually don't need to be a collaborator to clone; it's similar to forking in that it clones, but it's saved as a local copy instead of a linked fork (you can think of it as the Github automatically uploading your clone for you). You can clone from the Github interface, or via **Github Desktop**.
+
+- **Github Desktop**:
+
 I recommend using this to clone, and for pushing changes and everything else since it's all packaged nicely into a GUI. To clone using Github Desktop, click "Open in Desktop" on the Github repository, or click "Add -> Clone" on the top left-hand corner of Github Desktop.
 
 Once you have cloned the base repository, _I highly recommend adding a new **branch**_, even though you can directly push changes to the base repository and by extension the website. This way, the code changes you made will be tagged to that branch, and once you're done with editing the code, you **push** to the online repository (which is Github; remember your clone is a local copy).
 
-**Pushing to origin**: Kept talking about this but never elaborated. This generally means applying the changes made to the code by you. Before pushing, you will need to **commit** these changes, which can be all be done within Github Desktop. You will generally push to your branch/fork, then start a **pull request**.
+- **Pushing to origin**: 
 
-**Pull Request**: A pull request is received by the collaborators of the base repository (which might include yourself). Essentially, when you send a pull request, you're asking the base repository owners to accept and 'pull' your code. Then, if the changes are verified to be fine, a **merge** can be done, which will see the branch's changes applied to the base repository, and by extension the website.
+Kept talking about this but never elaborated. This generally means applying the changes made to the code by you. Before pushing, you will need to **commit** these changes, which can be all be done within Github Desktop. You will generally push to your branch/fork, then start a **pull request**.
+
+- **Pull Request**: 
+
+A pull request is received by the collaborators of the base repository (which might include yourself). Essentially, when you send a pull request, you're asking the base repository owners to accept and 'pull' your code. Then, if the changes are verified to be fine, a **merge** can be done, which will see the branch's changes applied to the base repository, and by extension the website.
+
+## Troubleshooting
+WIP
