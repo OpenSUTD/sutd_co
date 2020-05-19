@@ -89,9 +89,14 @@
       </head>
 
       <body id="page-top">
-        <!-- Note that navigation.html is not included because I made pretty much only workable on index.html, but you're free to change -->
+        <!-- Navigation -->
+        {% include navigation.html %}
+
         <!-- Page header, note that this is a smaller version of default header, with no button as well -->
-        <header class="pagemasthead d-flex">
+        <header
+          class="pagemasthead d-flex"
+          style="background: url({{page.banner}});"
+        >
           <div class="container text-center my-auto" style="color: white;">
             <a href="/" style="color: initial; text-decoration: none;" ;>
               <h1 class="mb-1">SUTD Chinese Orchestra</h1>
@@ -104,7 +109,7 @@
           <!-- This content space is where your subsequent pages that use this layout will be dumped at -->
           {{content}}
         </div>
-
+        <div id="menuModal" class="modal"></div>
         <!-- Footer -->
         {% include footer.html %}
         <!-- Scroll to Top Button-->

@@ -4,7 +4,7 @@ I think it's probably not good prog practice to have both jQuery and javascript 
   but for organising, I'm placing general page behaviour here, while the index.html javascripts are purely for the highlights modals
  */
 
-(function ($) {
+$(function () {
   "use strict"; // Start of use strict
 
   // this function controls the sidebar menu button
