@@ -7,4 +7,4 @@ banner: /assets/img/testing.jpg #placeholder
 
 <!-- placeholder title -->
 
-# Our Huqin Section
+# Huqin Section
