@@ -2,9 +2,19 @@
 layout: page
 title: About Us
 permalink: /about/
+banner: /assets/img/testing.jpg #placeholder
 ---
 
-<!-- Again bad prog practice from me, mixing markdown and html, sorry -->
+<style>
+    .logo{
+        height: 30vh;
+        width: auto;
+    }
+    .logoCol{
+        text-align: center;
+        padding: 0px 10px;
+    }
+</style>
 
 # About us
 
@@ -15,7 +25,7 @@ SUTD Chinese Orchestra (SUTDCO) started 5 years back in 2015 with just 4 passion
 
 <div class="row">
 
-<div class="col-6">
+<div class="col-lg-6">
 
 <h1 id="vision">Vision</h1>
 
@@ -25,12 +35,12 @@ SUTD Chinese Orchestra (SUTDCO) started 5 years back in 2015 with just 4 passion
 <h1 id="mission">Mission</h1>
 
 <p>To create an inclusive &amp; open music community for the masses</p>
-
+<br />
 </div>
 
-<div class="col-6">
+<div class="col-lg-6 logoCol">
 
-<img src="/assets/img/logo.png" style="height:30vh; width:auto;"/>
+<img src="/assets/img/logo.png" class="logo"/>
 
 </div>
 

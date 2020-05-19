@@ -1,10 +1,10 @@
 ---
 layout: page
-title: SUTDCO Plucking Section
-permalink: /plucking/
+title: SUTDCO Huqin Section
+permalink: /huqin/
 banner: /assets/img/testing.jpg #placeholder
 ---
 
 <!-- placeholder title -->
 
-# Our Plucking Section
+# Our Huqin Section
