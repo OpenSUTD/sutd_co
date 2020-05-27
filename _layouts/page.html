@@ -7,7 +7,8 @@
     {% endif %}
     <style type="text/css" media="screen">
       .pagetext {
-        margin: 20px 20vw;
+        margin: 0px auto;
+        padding: 2rem 15px;
         text-align: justify;
       }
       .myh1 {
@@ -105,10 +106,13 @@
           <div class="overlay"></div>
         </header>
 
-        <div class="pagetext">
-          <!-- This content space is where your subsequent pages that use this layout will be dumped at -->
-          {{content}}
+        <div class="container">
+          <div class="pagetext">
+            <!-- This content space is where your subsequent pages that use this layout will be dumped at -->
+            {{content}}
+          </div>
         </div>
+
         <div id="menuModal" class="modal"></div>
         <!-- Footer -->
         {% include footer.html %}
@@ -127,3 +131,43 @@
     </html>
   </html>
 </html>
+
+<script>
+  document.getElementById("default").click();
+
+  function openTab(e, tabName) {
+    // Declare all variables
+    var i, tabcontent, tablinks, ytContainer;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(tabName).style.display = "block";
+    e.currentTarget.className += " active";
+
+    //Stop playing the yt vid if user chooses another tab
+    ytContainer = document.getElementsByTagName("iframe");
+    for (i = 0; i < ytContainer.length; i++) {
+      ytContainer[i].src = ytContainer[i].src;
+    }
+  }
+
+  //Stop playing the yt vid if user clicks next, prev, or gallery
+  function reloadYT(event, carouselID) {
+    targetCarousel = document.getElementById(carouselID);
+    ytContainer = targetCarousel.getElementsByTagName("iframe");
+    for (i = 0; i < ytContainer.length; i++) {
+      ytContainer[i].src = ytContainer[i].src;
+    }
+  }
+</script>

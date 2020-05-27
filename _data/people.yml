@@ -1,0 +1,38 @@
+#This is the compiled content for the 'People' page. You're free to add more categories, just needa follow the template and all the properties
+#For the text segment, if multiple paragraphs are required, use a new '-para' property for each new paragraph
+#Also, if your paragraph gets too long, use "-para: |", then newlines can be added in here for more convenient typing. You don't even need quotation marks in this case
+#As with all YAML, you just need to be extrenely careful with the indentation
+
+- category: "Conductors & Instructors" #the name of the tab, which is your category anyway
+  default: true #sets the default tab to be shown on page load
+  content:
+    - title: "role"
+      name: "placeholder"
+      img: "/assets/img/placeholder.png"
+      text:
+        - para: |
+            "writeup here"
+            "the newlines here won't be shown on the page"
+            you actually don't need quotation marks
+        - para: "second para testing"
+
+    - title: "role"
+      name: "placeholder"
+      img: "/assets/img/placeholder.png"
+      text:
+        - para: "writeup here"
+
+- category: "Committee"
+  default: false
+  content:
+    - title: "position"
+      name: "placeholder"
+      img: "/assets/img/placeholder.png"
+      text:
+        - para: "writeup here"
+
+    - title: "position"
+      name: "placeholder"
+      img: "/assets/img/placeholder.png"
+      text:
+        - para: "writeup here"

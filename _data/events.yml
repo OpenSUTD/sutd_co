@@ -1,0 +1,112 @@
+#This is the compiled sources for the 'Events' page
+#For the text segment, if multiple paragraphs are required, use a new '-para' property for each new paragraph
+#Also, if your paragraph gets too long, use "-para: |", then newlines can be added in here for more convenient typing. You don't even need quotation marks in this case
+#As with all YAML, you just need to be extrenely careful with the indentation
+
+#IMPT: Please make sure all Event 'title' are unique!
+
+- category: "Upcoming"
+  default: false
+  header: "SUTDCO's Upcoming Events"
+  content:
+    - title: "Event-fsrg"
+      date: "DDMMYY"
+      text:
+        - para: "Event description"
+      media:
+        - img: "/assets/img/placeholder.png" #it's fine to only have 1 pic for the carousel
+          caption: "photo cr:____" #you can include photo credits with caption, or anything else really
+
+- category: "2020" #name of the tab, which is the category chosen to organise the events under
+  default: true #sets the default tab to be shown on page load
+  header: "Our Events in 2020" #a one-time title at the start of the page
+  content:
+    - title: "Event-frwgv"
+      date: "DDMMYY"
+      text:
+        - para: "Event description fnowunbfreuvnbonuveounvrounvovunoeunvtouvnovndl;uvn;lsvn;vnvunotunoretungoeuow4houno"
+      media:
+        - img: "/assets/img/testing.jpg"
+          caption: "photo cr:____"
+        - img: "/assets/img/bg-masthead.jpg"
+          yt: |
+            <iframe src="https://www.youtube.com/embed/videoseries?list=PLV_Gsq0eeGS-tSiihU_cYTHEn23leoU3V" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    - title: "Event-bdtgb"
+      date: "DDMMYY"
+      text:
+        - para: |
+            "you don't need quotations marks if using this method"
+            you can add newlines here in yaml to make it more convenient. 
+            but it won't make a new paragraph.
+        - para: |
+            this is an example of a second paragraph.
+      media:
+        - img: "/assets/img/portfolio-1.jpg" #multiple pics for the carousel
+          caption: "photo cr:____"
+        - img: "/assets/img/portfolio-2.jpg" #might wanna look into making a subfolder in assets/img to better organise
+          caption: "photo cr:____"
+        - img: "/assets/img/portfolio-3.jpg"
+          caption: "photo cr:____"
+        - img: "/assets/img/portfolio-4.jpg"
+          caption: "photo cr:____"
+
+- category: "2019"
+  default: false
+  header: "Our Events in 2019"
+  content:
+    - title: "Event-byey"
+      date: "DDMMYY"
+      text:
+        - para: "Event description"
+      media:
+        - img: "/assets/img/placeholder.png"
+          caption: "photo cr:____"
+
+    - title: "Event-ets"
+      date: "DDMMYY"
+      text:
+        - para: "Event description"
+      media:
+        - img: "/assets/img/placeholder.png"
+          caption: "photo cr:____"
+
+- category: "2018"
+  default: false
+  header: "Our Events in 2018"
+  content:
+    - title: "Event-vewtv"
+      date: "DDMMYY"
+      text:
+        - para: "Event description"
+      media:
+        - img: "/assets/img/placeholder.png"
+          caption: "photo cr:____"
+
+    - title: "Event-nry"
+      date: "DDMMYY"
+      text:
+        - para: "Event description"
+      media:
+        - img: "/assets/img/placeholder.png"
+          caption: "photo cr:____"
+
+- category: "2017"
+  default: false
+  header: "Our Events in 2017"
+  content:
+    - title: "Event-netyr"
+      date: "DDMMYY"
+      text:
+        - para: "Event description"
+      media:
+        - img: "/assets/img/placeholder.png"
+          caption: "photo cr:____"
+
+    - title: "Event-cxvb"
+      date: "DDMMYY"
+      text:
+        - para: "Event description"
+      media:
+        - img: "/assets/img/placeholder.png"
+          caption: "photo cr:____"
