@@ -3,82 +3,7 @@ layout: default
 title: SUTDCO
 ---
 
-<!-- The most intensive document on this site -->
-
-<style>
-  /* These are the icon 'buttons' showcasing our sections */
-  .woodwinds {
-    height: 112px;
-    width: 112px;
-    background-image: url("/assets/svg/di.svg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 80px 80px;
-  }
-  .huqin {
-    height: 112px;
-    width: 112px;
-    background-image: url("/assets/svg/erhu.svg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 80px 80px;
-  }
-  .plucking {
-    height: 112px;
-    width: 112px;
-    background-image: url("/assets/svg/zr.svg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 80px 80px;
-  }
-  .perc {
-    height: 112px;
-    width: 112px;
-    background-image: url("/assets/svg/gu.svg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 80px 80px;
-  }
-  /* Modal Content Box */
-  .modal-content {
-    background-color: #fefefe;
-    margin: 5% auto; /* 5% from the top and centered */
-    padding: 10px 20px 20px;
-    border: 1px solid #888;
-    width: auto;
-    max-width: 80em;
-    align-items: center;
-  }
-  /* The Close Button */
-  .close {
-    color: #aaa;
-    float: left;
-    font-size: 40px;
-    font-weight: bold;
-    align-self: flex-start;
-  }
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  /* to hold the youtube vids */
-  .ytContainer {
-    position: relative;
-    width: 64vw;
-    /* height: 36vh; */
-    padding-bottom: 56.25%;
-  }
-  .ytContainer iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-</style>
-
+<!-- The Homepage -->
 <!-- About -->
 <section class="content-section bg-light" id="about">
   <div class="container text-center">
@@ -167,9 +92,7 @@ title: SUTDCO
         <p class="text-faded mb-0">"don't spasm"</p>
       </div>
     </div>
-    <a class="btn btn-dark btn-xl" href="/people/"
-      >Our Conductors & Instructors</a
-    >
+    <a class="btn btn-dark btn-xl" href="/people/">Our People</a>
   </div>
 </section>
 
@@ -201,7 +124,7 @@ title: SUTDCO
       <h2 class="mb-5">What we've been up to</h2>
     </div>
     <div class="row no-gutters" style="padding-bottom: 50px;">
-      <!-- I'm using a for loop here to iterate through highlights.yml, so that it is easier to edit and update the featured posts -->
+      <!-- for loop here to iterate through highlights.yml, so that it is easier to edit and update the featured posts -->
       {% for items in site.data.highlights %}
       <div class="col-lg-6">
         <span class="portfolio-item" id="{{ items.id }}">
@@ -220,13 +143,13 @@ title: SUTDCO
   </div>
 </section>
 
-<!-- I'm again using a for loop to iterate through highlights.yml, this time to create the modals and embed the posts in them-->
+<!-- for loop to iterate through highlights.yml, this time to create the modals and embed the posts in them-->
 {% for items in site.data.highlights %}
 <div class="modal" id="{{ items.id }}Modal">
   <div class="modal-content">
     <span class="close">&times;</span>
-    {% if items.id == "yt1" or items.id == "yt2" %}
-    <div class="ytContainer">
+    {% if items.category == "yt" %}
+    <div class="embed-responsive embed-responsive-16by9">
       {{ items.embedCode }}
     </div>
     {% else %} {{ items.embedCode }} {% endif %}
