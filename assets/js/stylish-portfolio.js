@@ -1,6 +1,6 @@
 /*!
 This is where you'll write your scripts but in jQuery.
-I think it's probably not good prog practice to have both jQuery and javascript (inside index.html) even though afaik both are the same,
+I'm not sure if it's good prog practice to have both jQuery and javascript even though afaik both are the same,
   but for organising, I'm placing general page behaviour here, while the index.html javascripts are purely for the highlights modals
  */
 

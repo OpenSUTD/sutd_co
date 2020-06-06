@@ -133,7 +133,10 @@
 </html>
 
 <script>
-  document.getElementById("default").click();
+  // once document is loaded, open default. used to fix google chrome not displaying default. using jquery here
+  $(document).ready(function () {
+    $("#default").trigger("click");
+  });
 
   function openTab(e, tabName) {
     // Declare all variables
@@ -153,7 +156,8 @@
 
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(tabName).style.display = "block";
-    e.currentTarget.className += " active";
+    console.log(e.currentTarget);
+    e.target.className += " active";
 
     //Stop playing the yt vid if user chooses another tab
     ytContainer = document.getElementsByTagName("iframe");

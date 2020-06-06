@@ -21,19 +21,20 @@
   default: true #sets the default tab to be shown on page load
   header: "Our Events in 2020" #a one-time title at the start of the page
   content:
-    - title: "Event-frwgv"
-      date: "DDMMYY"
+    - title: "Guest-playing with Reverberance Percussion Ensemble at Esplanade" #title of each post. Note: no special characters! ***********
+      date: "February 14"
       text:
-        - para: "Event description fnowunbfreuvnbonuveounvrounvovunoeunvtouvnovndl;uvn;lsvn;vnvunotunoretungoeuow4houno"
+        - para: |
+            https://www.esplanade.com/festivals-and-series/cool-classics/2020/chinese-percussion-classics
       media:
-        - img: "/assets/img/testing.jpg"
+        - img: "/assets/img/portfolio-1.jpg"
           caption: "photo cr:____"
         - img: "/assets/img/bg-masthead.jpg"
-          yt: |
+          yt: | #embedding yt vid in carousel
             <iframe src="https://www.youtube.com/embed/videoseries?list=PLV_Gsq0eeGS-tSiihU_cYTHEn23leoU3V" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    - title: "Event-bdtgb"
-      date: "DDMMYY"
+    - title: "Lunchtime Performance at SUTD"
+      date: "February 05"
       text:
         - para: |
             "you don't need quotations marks if using this method"
@@ -42,13 +43,9 @@
         - para: |
             this is an example of a second paragraph.
       media:
-        - img: "/assets/img/portfolio-1.jpg" #multiple pics for the carousel
+        - img: "/assets/img/portfolio-2.jpg" #multiple pics for the carousel
           caption: "photo cr:____"
-        - img: "/assets/img/portfolio-2.jpg" #might wanna look into making a subfolder in assets/img to better organise
-          caption: "photo cr:____"
-        - img: "/assets/img/portfolio-3.jpg"
-          caption: "photo cr:____"
-        - img: "/assets/img/portfolio-4.jpg"
+        - img: "/assets/img/2020LTP.jpg" #might wanna look into making a subfolder in assets/img to better organise
           caption: "photo cr:____"
 
 - category: "2019"
