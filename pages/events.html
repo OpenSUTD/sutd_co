@@ -2,7 +2,7 @@
 layout: page
 title: SUTDCO's Events
 permalink: /events/
-banner: /assets/img/testing.jpg
+banner: /assets/img/page-masthead.png
 ---
 
 <!-- looping through events.yml for content -->
@@ -43,9 +43,10 @@ banner: /assets/img/testing.jpg
   <h4>{{ items.date }}</h4>
 
   <!-- create image carousel -->
-  {% assign noOfImages = items.media.size | minus: 1 %}
+  {% assign noOfImages = items.media.size | minus: 1 %} {% assign carouselName =
+  items.title | remove: " " %}
   <div
-    id="{{ items.title }}Carousel"
+    id="{{ carouselName }}Carousel"
     class="carousel slide"
     data-interval="false"
   >
@@ -93,20 +94,20 @@ banner: /assets/img/testing.jpg
       <!-- carousel controls -->
       <a
         class="carousel-control-prev"
-        href="#{{ items.title }}Carousel"
+        href="#{{ carouselName }}Carousel"
         role="button"
         data-slide="prev"
-        onclick="reloadYT(event, '{{ items.title }}Carousel')"
+        onclick="reloadYT(event, '{{ carouselName }}Carousel')"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
       <a
         class="carousel-control-next"
-        href="#{{ items.title }}Carousel"
+        href="#{{ carouselName }}Carousel"
         role="button"
         data-slide="next"
-        onclick="reloadYT(event, '{{ items.title }}Carousel')"
+        onclick="reloadYT(event, '{{ carouselName }}Carousel')"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
@@ -118,18 +119,18 @@ banner: /assets/img/testing.jpg
       {% for i in (0..noOfImages) %} {% if i == 0 %}
       <li
         class="list-inline-item active"
-        data-target="#{{ items.title }}Carousel"
+        data-target="#{{ carouselName }}Carousel"
         data-slide-to="{{ i }}"
-        onclick="reloadYT(event, '{{ items.title }}Carousel')"
+        onclick="reloadYT(event, '{{ carouselName }}Carousel')"
       >
         <img src="{{ items.media[i].img }}" class="img-fluid" />
       </li>
       {% else %}
       <li
         class="list-inline-item"
-        data-target="#{{ items.title }}Carousel"
+        data-target="#{{ carouselName }}Carousel"
         data-slide-to="{{ i }}"
-        onclick="reloadYT(event, '{{ items.title }}Carousel')"
+        onclick="reloadYT(event, '{{ carouselName }}Carousel')"
       >
         <img src="{{ items.media[i].img }}" class="img-fluid" />
       </li>
