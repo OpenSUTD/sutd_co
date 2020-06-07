@@ -19,22 +19,22 @@
 
 - category: "2020" #name of the tab, which is the category chosen to organise the events under
   default: true #sets the default tab to be shown on page load
-  header: "Our Events in 2020" #a one-time title at the start of the page
+  header: "Our Events in 2020 (so far!)" #a one-time title at the start of the page
   content:
     - title: "Guest-playing with Reverberance Percussion Ensemble at Esplanade" #title of each post. Note: no special characters! ***********
-      date: "February 14"
+      date: "14th February"
       text:
         - para: |
             https://www.esplanade.com/festivals-and-series/cool-classics/2020/chinese-percussion-classics
       media:
         - img: "/assets/img/portfolio-1.jpg"
-          caption: "photo cr:____"
+          caption: "Photo credit: Bing Liang (haven't actually asked him though)"
         - img: "/assets/img/bg-masthead.jpg"
-          yt: | #embedding yt vid in carousel
+          yt: | #testing embed yt vid in carousel
             <iframe src="https://www.youtube.com/embed/videoseries?list=PLV_Gsq0eeGS-tSiihU_cYTHEn23leoU3V" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     - title: "Lunchtime Performance at SUTD"
-      date: "February 05"
+      date: "5th February"
       text:
         - para: |
             "you don't need quotations marks if using this method"
@@ -44,9 +44,9 @@
             this is an example of a second paragraph.
       media:
         - img: "/assets/img/portfolio-2.jpg" #multiple pics for the carousel
-          caption: "photo cr:____"
-        - img: "/assets/img/2020LTP.jpg" #might wanna look into making a subfolder in assets/img to better organise
-          caption: "photo cr:____"
+          caption: "Photo credit: Phyllis"
+        - img: "/assets/img/2020LTP.png" #might wanna look into making a subfolder in assets/img to better organise
+          caption: "Photo credit: Phyllis"
 
 - category: "2019"
   default: false

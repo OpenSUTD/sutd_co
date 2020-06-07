@@ -2,7 +2,7 @@
 layout: page
 title: SUTDCO's Events
 permalink: /events/
-banner: /assets/img/page-masthead.png
+banner: /assets/img/page-masthead2.png
 ---
 
 <!-- looping through events.yml for content -->
@@ -33,14 +33,13 @@ banner: /assets/img/page-masthead.png
 <!-- inserting content for each tab -->
 {% for tabs in site.data.events %}
 <div id="{{ tabs.category }}" class="tabcontent">
-  <br />
+  <br /><br />
   <h2>{{ tabs.header }}</h2>
-  <br />
+  <br /><br />
 
   <!-- this is for each individual event in their year -->
   {% for items in tabs.content %}
-  <h3>{{ items.title }}</h3>
-  <h4>{{ items.date }}</h4>
+  <h4>{{ items.date }}: {{ items.title }}</h4>
 
   <!-- create image carousel -->
   {% assign noOfImages = items.media.size | minus: 1 %} {% assign carouselName =
@@ -141,7 +140,7 @@ banner: /assets/img/page-masthead.png
   {% for paragraphs in items.text %}
   <p style="word-break: break-word;">{{ paragraphs.para }}</p>
   {% endfor %}
-  <br />
+  <br /><br />
   {% endfor %}
 </div>
 {% endfor %}

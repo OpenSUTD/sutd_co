@@ -249,7 +249,7 @@ h6 {
       from(rgba(0, 0, 0, 0.2)),
       to(rgba(0, 0, 0, 0.2))
     ),
-    url("../img/page-masthead.jpg");
+    url("../img/page-masthead.jpg"); /*default page banner in case none is set */
   background: linear-gradient(
       90deg,
       rgba(0, 0, 0, 0.2) 0%,
