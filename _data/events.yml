@@ -1,9 +1,9 @@
-#This is the compiled sources for the 'Events' page
-#For the text segment, if multiple paragraphs are required, use a new '-para' property for each new paragraph
-#Also, if your paragraph gets too long, use "-para: |", then newlines can be added in here for more convenient typing. You don't even need quotation marks in this case
-#As with all YAML, you just need to be extrenely careful with the indentation
+# This is the compiled sources for the 'Events' page
+# For the text segment, if multiple paragraphs are required, use a new '-para' property for each new paragraph
+# Also, if your paragraph gets too long, use "-para: |", then newlines can be added in here for more convenient typing. You don't even need quotation marks in this case
+# As with all YAML, you just need to be extremely careful with the indentation
 
-#IMPT: Please make sure all Event 'title' are unique!
+# IMPT: Please make sure all Event 'title' are unique!
 
 - category: "Upcoming"
   default: false
@@ -14,12 +14,12 @@
       text:
         - para: "Event description"
       media:
-        - img: "/assets/img/placeholder.png" #it's fine to only have 1 pic for the carousel
-          caption: "photo cr:____" #you can include photo credits with caption, or anything else really
+        - img: "/assets/img/placeholder.png" # it's fine to only have 1 pic for the carousel
+          caption: "photo cr:____" # you can include photo credits with caption, or anything else really
 
-- category: "2020" #name of the tab, which is the category chosen to organise the events under
-  default: true #sets the default tab to be shown on page load
-  header: "Our Events in 2020 (so far!)" #a one-time title at the start of the page
+- category: "2020" # name of the tab, which is the category chosen to organise the events under
+  default: true # sets the default tab to be shown on page load
+  header: "Our Events in 2020 (so far!)" # a one-time title at the start of the page
   content:
     - title: "Guest-playing with Reverberance Percussion Ensemble at Esplanade" #title of each post. Note: no special characters! ***********
       date: "14th February"
@@ -30,7 +30,7 @@
         - img: "/assets/img/portfolio-1.jpg"
           caption: "Photo credit: Bing Liang (haven't actually asked him though)"
         - img: "/assets/img/bg-masthead.jpg"
-          yt: | #testing embed yt vid in carousel
+          yt: | # testing embed yt vid in carousel
             <iframe src="https://www.youtube.com/embed/videoseries?list=PLV_Gsq0eeGS-tSiihU_cYTHEn23leoU3V" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     - title: "Lunchtime Performance at SUTD"
@@ -43,9 +43,9 @@
         - para: |
             this is an example of a second paragraph.
       media:
-        - img: "/assets/img/portfolio-2.jpg" #multiple pics for the carousel
+        - img: "/assets/img/portfolio-2.jpg" # multiple pics for the carousel
           caption: "Photo credit: Phyllis"
-        - img: "/assets/img/2020LTP.png" #might wanna look into making a subfolder in assets/img to better organise
+        - img: "/assets/img/2020LTP.png" # might wanna look into making a subfolder in assets/img to better organise
           caption: "Photo credit: Phyllis"
 
 - category: "2019"

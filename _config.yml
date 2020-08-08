@@ -17,8 +17,8 @@ title: SUTD Chinese Orchestra Club
 email: chineseorchestra@club.sutd.edu.sg
 description: Homepage for SUTDCO
 
-#keywords are supposed to be how google finds your site but apparently it's not that important anymore
-keywords: #none for now
+# keywords are supposed to be how google finds your site but apparently it's not that important anymore
+keywords: # none for now
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sutdco.opensutd.org/" # the base hostname & protocol for your site, e.g. http://example.com

@@ -2,7 +2,7 @@
 layout: page
 title: About Us
 permalink: /about/
-banner: /assets/img/testing.jpg #placeholder
+banner: /assets/img/testing.jpg # placeholder
 ---
 
 <style>
