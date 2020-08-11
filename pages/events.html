@@ -67,9 +67,11 @@ banner: /assets/img/page-masthead2.png
       {% else %}
       <div class="carousel-item active">
         <img src="{{ items.media[j].img }}" class="d-block w-100" />
+        {% if items.media[j].caption %}
         <div class="carousel-caption d-none d-md-block">
           <p>{{ items.media[j].caption }}</p>
         </div>
+        {% endif %}
       </div>
       {% endif %}
       <!-- if it is not the default photo to be shown on the caoursel-->
@@ -84,9 +86,11 @@ banner: /assets/img/page-masthead2.png
       {% else %}
       <div class="carousel-item">
         <img src="{{ items.media[j].img }}" class="d-block w-100" />
+        {% if items.media[j].caption %}
         <div class="carousel-caption d-none d-md-block">
           <p>{{ items.media[j].caption }}</p>
         </div>
+        {% endif %}
       </div>
       {% endif %} {% endif %} {% endfor %}
 
