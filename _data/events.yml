@@ -9,13 +9,13 @@
   default: false
   header: "SUTDCO's Upcoming Events"
   content:
-    - title: "Event-fsrg"
-      date: "DDMMYY"
+    - title: "DiscoverSUTD 2020"
+      date: "To be confirmed!"
       text:
-        - para: "Event description"
+        - para: "SUTDCO Introductory Session 2020"
       media:
         - img: "/assets/img/placeholder.png" # it's fine to only have 1 pic for the carousel
-          caption: "photo cr:____" # you can include photo credits with caption, or anything else really
+          # caption: "photo cr:____" # you can include photo credits with caption, or anything else really
 
 - category: "2020" # name of the tab, which is the category chosen to organise the events under
   default: true # sets the default tab to be shown on page load
