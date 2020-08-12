@@ -25,10 +25,10 @@
       date: "14th February"
       text:
         - para: |
-            https://www.esplanade.com/festivals-and-series/cool-classics/2020/chinese-percussion-classics
+            On Valentine's Day, SUTDCO Percussion supported Reverberance's own Percussion Section at the Esplanade Outdoor Theatre in a performance featuring a variety of traditional Chinese Percussion classics. Link: https://www.esplanade.com/festivals-and-series/cool-classics/2020/chinese-percussion-classics
       media:
         - img: "/assets/img/portfolio-1.jpg"
-          caption: "Photo credit: Bing Liang (haven't actually asked him though)"
+          caption: "Photo credit: Tan Bing Liang (haven't actually asked him though)"
         - img: "/assets/img/bg-masthead.jpg"
           yt: | # testing embed yt vid in carousel
             <iframe src="https://www.youtube.com/embed/videoseries?list=PLV_Gsq0eeGS-tSiihU_cYTHEn23leoU3V" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -37,11 +37,7 @@
       date: "5th February"
       text:
         - para: |
-            "you don't need quotations marks if using this method"
-            you can add newlines here in yaml to make it more convenient. 
-            but it won't make a new paragraph.
-        - para: |
-            this is an example of a second paragraph.
+            SUTDCO performed 4 pieces: Feng Shou Luo Gu 丰收锣鼓（Guzheng 古筝), Xi Qing Luo Gu 喜庆锣鼓 (Percussion, 打击乐), Ying Chun Jie Fu 迎春接福 (Orchestra, 合奏) , and Jin She Kuang Wu 金蛇狂舞 (Orchestra, 合奏) for the SUTD community. Check out our performances here! Link: insta
       media:
         - img: "/assets/img/portfolio-2.jpg" # multiple pics for the carousel
           caption: "Photo credit: Phyllis"
@@ -52,10 +48,10 @@
   default: false
   header: "Our Events in 2019"
   content:
-    - title: "Event-byey"
-      date: "DDMMYY"
+    - title: "Impressions II Concert"
+      date: "17th November"
       text:
-        - para: "Event description"
+        - para: "On 17th of November 2019, SUTDCO hosted its 2nd ever concert, with a repertoire consisting of tracks from cult classic video game Shenmue to melodious pieces composed by multi-talented local composer Wang Chenwei."
       media:
         - img: "/assets/img/placeholder.png"
           caption: "photo cr:____"
