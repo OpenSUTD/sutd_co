@@ -51,18 +51,23 @@
     - title: "Impressions II Concert"
       date: "17th November"
       text:
-        - para: "On 17th of November 2019, SUTDCO hosted its 2nd ever concert, Impressions II, with a repertoire consisting of tracks from cult classic video game Shenmue to melodious pieces composed by multi-talented local composer Wang Chenwei. Aided by our faculty members, Prof. Tan Dayang, Prof. Lim Seh Chun, and Prof. Chen Jer-Ming, the performance was a success and marked another page in our club's short history."
+        - para: "On 17th of November 2019, SUTDCO hosted its 2nd ever concert, Impressions II, with a repertoire consisting of tracks from cult classic video game Shenmue to melodious pieces composed by multi-talented local composer Wang Chenwei. Aided by our faculty members, Prof. Tan Dayang, Prof. Chen Jer-Ming, and Prof. Lim Seh Chun, the performance was a success and marked another page in our club's short history."
       media:
         - img: "/assets/img/placeholder.png"
           caption: "photo cr:____"
 
-    - title: "Event-ets"
+    - title: "Matriculation Day - Fifth Row Showcase"
       date: "DDMMYY"
       text:
-        - para: "Event description"
+        - para: "As part of the 2019 Freshman Orientation Programme, SUTDCO Percussion presented two separate renditions of Long Teng Hu Yue (龙腾虎跃) to the incoming batch of freshmen. Check out our performance! Link:"
       media:
         - img: "/assets/img/placeholder.png"
           caption: "photo cr:____"
+          
+    - title: "Open House & Night Fiesta"
+      date: "Date"
+      text:
+        - para: "SUTDCO participated in SUTD's Open House "
 
 - category: "2018"
   default: false
@@ -88,10 +93,10 @@
   default: false
   header: "Our Events in 2017"
   content:
-    - title: "Event-netyr"
+    - title: "Opening of Upper Changi (DTL) MRT Station"
       date: "DDMMYY"
       text:
-        - para: "Event description"
+        - para: "SUTDCO's first major event was performing Xi Qing Luo Gu (喜庆锣鼓) for the opening of Upper Changi MRT Station, which is situated right beside our campus."
       media:
         - img: "/assets/img/placeholder.png"
           caption: "photo cr:____"
