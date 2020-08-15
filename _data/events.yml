@@ -59,7 +59,7 @@
     - title: "Matriculation Day - Fifth Row Showcase"
       date: "DDMMYY"
       text:
-        - para: "As part of the 2019 Freshman Orientation Programme, SUTDCO Percussion presented two separate renditions of Long Teng Hu Yue (龙腾虎跃) to the incoming batch of freshmen. Check out our performance! Link:"
+        - para: "As part of the 2019 Freshman Orientation Programme, SUTDCO Percussion presented two separate renditions of Long Teng Hu Yue (龙腾虎跃) to the incoming freshmen. Check out our performance! Link:"
       media:
         - img: "/assets/img/placeholder.png"
           caption: "photo cr:____"
@@ -68,41 +68,90 @@
       date: "Date"
       text:
         - para: "SUTDCO participated in SUTD's Open House "
+      media:
 
 - category: "2018"
   default: false
   header: "Our Events in 2018"
   content:
-    - title: "Event-vewtv"
-      date: "DDMMYY"
+    - title: "Impressions Concert"
+      date: "10th November"
       text:
-        - para: "Event description"
+        - para: "10th of November 2018 marked a landmark occasion in SUTDCO's history: first ever concert performed by our club. Titled 'Impressions', the concert was " 
       media:
         - img: "/assets/img/placeholder.png"
           caption: "photo cr:____"
 
-    - title: "Event-nry"
-      date: "DDMMYY"
+    - title: "Donor Performance"
+      date: "14th September"
       text:
         - para: "Event description"
       media:
         - img: "/assets/img/placeholder.png"
           caption: "photo cr:____"
+          
+    - title: "Lunchtime Performance"
+      date: "18th July"
+      text: 
+        - para: ""
+      media:
+      
+    - title: "SBF Dinner Performance at Trade Association Hall"
+      date: "6th May"
+      text:
+        - para: ""
+      media:
+      
+    - title: "Greendale Secondary Concert"
+      date: "6th April"
+      text:
+        - para: ""
+      media:
+      
+    - title: "Lunchtime Performance"
+      date: "21st March"
+      text:
+        - para: ""
+      media: 
+      
+    - title: "SUTD Open House 2018"
+      date: "3rd and 4th March"
+      text:
+        - para: ""
+      media: 
+      
+    - title: "Chingay 2018"
+      date: "Date"
+      text:
+        - para: ""
+      media: 
+      
+    - title: "Spring Reception"
+      date: "18th February"
+      text:
+        - para: ""
+      media: 
+     
+    - title: "Donor Performance"
+      date: "Date"
+      text: 
+        - para: ""
+      media: 
 
 - category: "2017"
   default: false
   header: "Our Events in 2017"
   content:
     - title: "Opening of Upper Changi (DTL) MRT Station"
-      date: "DDMMYY"
+      date: "15th October"
       text:
         - para: "SUTDCO's first major event was performing Xi Qing Luo Gu (喜庆锣鼓) for the opening of Upper Changi MRT Station, which is situated right beside our campus."
       media:
         - img: "/assets/img/placeholder.png"
           caption: "photo cr:____"
 
-    - title: "Event-cxvb"
-      date: "DDMMYY"
+    - title: "Lunchtime Performance"
+      date: "27th September"
       text:
         - para: "Event description"
       media:
