@@ -25,10 +25,10 @@
       date: "14th February"
       text:
         - para: |
-            https://www.esplanade.com/festivals-and-series/cool-classics/2020/chinese-percussion-classics
+            SUTDCO Percussion supported Reverberance's own Percussion Section at the Esplanade Outdoor Theatre in a performance featuring a variety of traditional Chinese Percussion classics. Link: https://www.esplanade.com/festivals-and-series/cool-classics/2020/chinese-percussion-classics
       media:
         - img: "/assets/img/portfolio-1.jpg"
-          caption: "Photo credit: Bing Liang (haven't actually asked him though)"
+          caption: "Photo credit: Tan Bing Liang (haven't actually asked him though)"
         - img: "/assets/img/bg-masthead.jpg"
           yt: | # testing embed yt vid in carousel
             <iframe src="https://www.youtube.com/embed/videoseries?list=PLV_Gsq0eeGS-tSiihU_cYTHEn23leoU3V" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -37,11 +37,7 @@
       date: "5th February"
       text:
         - para: |
-            "you don't need quotations marks if using this method"
-            you can add newlines here in yaml to make it more convenient. 
-            but it won't make a new paragraph.
-        - para: |
-            this is an example of a second paragraph.
+            SUTDCO performed 4 pieces: Feng Shou Luo Gu 丰收锣鼓（Guzheng 古筝), Xi Qing Luo Gu 喜庆锣鼓 (Percussion, 打击乐), Ying Chun Jie Fu 迎春接福 (Orchestra, 合奏) , and Jin She Kuang Wu 金蛇狂舞 (Orchestra, 合奏) for the SUTD community. Check out our performances here! Link: insta
       media:
         - img: "/assets/img/portfolio-2.jpg" # multiple pics for the carousel
           caption: "Photo credit: Phyllis"
@@ -52,56 +48,110 @@
   default: false
   header: "Our Events in 2019"
   content:
-    - title: "Event-byey"
-      date: "DDMMYY"
+    - title: "Impressions II Concert"
+      date: "17th November"
       text:
-        - para: "Event description"
+        - para: "On 17th of November 2019, SUTDCO hosted its 2nd ever concert, Impressions II, with a repertoire consisting of tracks from cult classic video game Shenmue to melodious pieces composed by multi-talented local composer Wang Chenwei. Aided by our faculty members, Prof. Tan Dayang, Prof. Chen Jer-Ming, and Prof. Lim Seh Chun, the performance was a success and marked another page in our club's short history."
       media:
         - img: "/assets/img/placeholder.png"
           caption: "photo cr:____"
 
-    - title: "Event-ets"
+    - title: "Matriculation Day - Fifth Row Showcase"
       date: "DDMMYY"
       text:
-        - para: "Event description"
+        - para: "As part of the 2019 Freshman Orientation Programme, SUTDCO Percussion presented two separate renditions of Long Teng Hu Yue (龙腾虎跃) to the incoming freshmen. Check out our performance! Link:"
       media:
         - img: "/assets/img/placeholder.png"
           caption: "photo cr:____"
+          
+    - title: "Open House & Night Fiesta"
+      date: "Date"
+      text:
+        - para: "SUTDCO participated in SUTD's Open House "
+      media:
 
 - category: "2018"
   default: false
   header: "Our Events in 2018"
   content:
-    - title: "Event-vewtv"
-      date: "DDMMYY"
+    - title: "Impressions Concert"
+      date: "10th November"
       text:
-        - para: "Event description"
+        - para: "10th of November 2018 marked a landmark occasion in SUTDCO's history: first ever concert performed by our club. Titled 'Impressions', the concert was " 
       media:
         - img: "/assets/img/placeholder.png"
           caption: "photo cr:____"
 
-    - title: "Event-nry"
-      date: "DDMMYY"
+    - title: "Donor Performance"
+      date: "14th September"
       text:
         - para: "Event description"
       media:
         - img: "/assets/img/placeholder.png"
           caption: "photo cr:____"
+          
+    - title: "Lunchtime Performance"
+      date: "18th July"
+      text: 
+        - para: ""
+      media:
+      
+    - title: "SBF Dinner Performance at Trade Association Hall"
+      date: "6th May"
+      text:
+        - para: ""
+      media:
+      
+    - title: "Greendale Secondary Concert"
+      date: "6th April"
+      text:
+        - para: ""
+      media:
+      
+    - title: "Lunchtime Performance"
+      date: "21st March"
+      text:
+        - para: ""
+      media: 
+      
+    - title: "SUTD Open House 2018"
+      date: "3rd and 4th March"
+      text:
+        - para: ""
+      media: 
+      
+    - title: "Chingay 2018"
+      date: "Date"
+      text:
+        - para: ""
+      media: 
+      
+    - title: "Spring Reception"
+      date: "18th February"
+      text:
+        - para: ""
+      media: 
+     
+    - title: "Donor Performance"
+      date: "Date"
+      text: 
+        - para: ""
+      media: 
 
 - category: "2017"
   default: false
   header: "Our Events in 2017"
   content:
-    - title: "Event-netyr"
-      date: "DDMMYY"
+    - title: "Opening of Upper Changi (DTL) MRT Station"
+      date: "15th October"
       text:
-        - para: "Event description"
+        - para: "SUTDCO's first major event was performing Xi Qing Luo Gu (喜庆锣鼓) for the opening of Upper Changi MRT Station, which is situated right beside our campus."
       media:
         - img: "/assets/img/placeholder.png"
           caption: "photo cr:____"
 
-    - title: "Event-cxvb"
-      date: "DDMMYY"
+    - title: "Lunchtime Performance"
+      date: "27th September"
       text:
         - para: "Event description"
       media:
