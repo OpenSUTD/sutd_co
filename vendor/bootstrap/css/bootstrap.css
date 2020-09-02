@@ -6621,8 +6621,8 @@ a.close.disabled {
   width: 100%;
   bottom: 0px;
   z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #fff;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.65);

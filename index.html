@@ -161,8 +161,8 @@ title: SUTDCO
 <div id="menuModal" class="modal"></div>
 
 <script>
-  var myModal; //this is to get and show the respective modals when they are activated
-  var ytStopper; //this is to get the youtube players so that they stop playing after the modal closes
+  var myModal; // this is to get and show the respective modals when they are activated
+  var ytStopper; // this is to get the youtube players so that they stop playing after the modal closes
 
   // Get the close buttons for each modal
   var closesocialMedia1 = document.getElementsByClassName("close")[0];
@@ -187,12 +187,12 @@ title: SUTDCO
   };
   yt1.onclick = function () {
     myModal = document.getElementById("yt1Modal");
-    ytStopper = myModal.getElementsByTagName("iframe")[0]; //find the youtube frame
+    ytStopper = myModal.getElementsByTagName("iframe")[0]; // find the youtube frame
     myModal.style.display = "block";
   };
   yt2.onclick = function () {
     myModal = document.getElementById("yt2Modal");
-    ytStopper = myModal.getElementsByTagName("iframe")[0]; //find the youtube frame
+    ytStopper = myModal.getElementsByTagName("iframe")[0]; // find the youtube frame
     myModal.style.display = "block";
   };
 
@@ -206,11 +206,11 @@ title: SUTDCO
     }
   };
 
-  //I also added the functionality of closing the modal when ESC (keycode 27) is pressed
+  // I also added the functionality of closing the modal when ESC (keycode 27) is pressed
   window.onkeydown = function (event) {
     if (event.keyCode == 27) {
       myModal.style.display = "none";
-      //if it is a yt modal, setting src=src reloads the vid and stops it from playing after the modal closes. Probably not the right way to do it but it works
+      // if it is a yt modal, setting src=src reloads the vid and stops it from playing after the modal closes. Probably not the right way to do it but it works
       if (ytStopper != null) {
         ytStopper.src = ytStopper.src;
       }

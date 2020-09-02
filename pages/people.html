@@ -40,17 +40,18 @@ banner: /assets/img/page-masthead.png
   {% for person in tabs.content %}
   <div class="row">
     <!-- each profile will have pic on the left, words on the right -->
-    <div class="col-lg-6">
-      <img src="{{ person.img }}" style="width: 20vw; height: auto;" />
+    <div class="col-lg-4">
+      <img src="{{ person.img }}" style="width: 20vw; height: auto" />
     </div>
-    <div class="col-lg-6">
-      <h3>{{ person.title }}</h3>
-      <h2>{{ person.name }}</h2>
+    <div class="col-lg-8">
+      <h3 class="titles">{{ person.title }}</h3>
+      <h2 class="titles">{{ person.name }}</h2>
       {% for paragraphs in person.text %}
-      <p style="word-break: break-word;">{{ paragraphs.para }}</p>
+      <p style="word-break: break-word">{{ paragraphs.para }}</p>
       {% endfor %}
     </div>
   </div>
+  <br />
   <br />
   {% endfor %}
 </div>
