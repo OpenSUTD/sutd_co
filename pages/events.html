@@ -39,11 +39,11 @@ banner: /assets/img/page-masthead2.png
 
   <!-- this is for each individual event in their year -->
   {% for items in tabs.content %}
-  <h4>{{ items.date }}: {{ items.title }}</h4>
+  <h4 class="titles">{{ items.date }}: {{ items.title }}</h4>
 
   <!-- create image carousel -->
   {% assign noOfImages = items.media.size | minus: 1 %} {% assign carouselName =
-  items.title | remove: " " %}
+  items.title | slugify %}
   <div
     id="{{ carouselName }}Carousel"
     class="carousel slide"
@@ -56,19 +56,19 @@ banner: /assets/img/page-masthead2.png
       <!-- looks a bit convoluted because Liquid in HTML can't have indentations, and for good reason because the HTML needs it -->
       {% if j == 0 %}
       <!-- the above sets the first image of the carousel to be the default, which is indicated by the 'active' class -->
-      {% if items.media[j].yt %}
-      <!-- the above checks if there is a yt vid, in which case a container is needed for it to resize properly in mobile view -->
+      {% if items.media[j].vid %}
+      <!-- the above checks if there is a vid, in which case a container is needed for it to resize properly in mobile view -->
       <div class="carousel-item active">
         <div class="embed-responsive embed-responsive-16by9">
-          {{ items.media[j].yt }}
+          {{ items.media[j].vid }}
         </div>
       </div>
-      <!-- if there is no yt vid -->
+      <!-- if there is no vid -->
       {% else %}
       <div class="carousel-item active">
         <img src="{{ items.media[j].img }}" class="d-block w-100" />
         {% if items.media[j].caption %}
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption">
           <p>{{ items.media[j].caption }}</p>
         </div>
         {% endif %}
@@ -76,18 +76,18 @@ banner: /assets/img/page-masthead2.png
       {% endif %}
       <!-- if it is not the default photo to be shown on the caoursel-->
       {% else %}
-      <!-- again, check if there is a yt vid to embed-->
-      {% if items.media[j].yt %}
+      <!-- again, check if there is a vid to embed-->
+      {% if items.media[j].vid %}
       <div class="carousel-item">
         <div class="embed-responsive embed-responsive-16by9">
-          {{ items.media[j].yt }}
+          {{ items.media[j].vid }}
         </div>
       </div>
       {% else %}
       <div class="carousel-item">
         <img src="{{ items.media[j].img }}" class="d-block w-100" />
         {% if items.media[j].caption %}
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption">
           <p>{{ items.media[j].caption }}</p>
         </div>
         {% endif %}
@@ -100,7 +100,7 @@ banner: /assets/img/page-masthead2.png
         href="#{{ carouselName }}Carousel"
         role="button"
         data-slide="prev"
-        onclick="reloadYT(event, '{{ carouselName }}Carousel')"
+        onclick="reloadVid(event, '{{ carouselName }}Carousel')"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -110,7 +110,7 @@ banner: /assets/img/page-masthead2.png
         href="#{{ carouselName }}Carousel"
         role="button"
         data-slide="next"
-        onclick="reloadYT(event, '{{ carouselName }}Carousel')"
+        onclick="reloadVid(event, '{{ carouselName }}Carousel')"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
@@ -124,7 +124,7 @@ banner: /assets/img/page-masthead2.png
         class="list-inline-item active"
         data-target="#{{ carouselName }}Carousel"
         data-slide-to="{{ i }}"
-        onclick="reloadYT(event, '{{ carouselName }}Carousel')"
+        onclick="reloadVid(event, '{{ carouselName }}Carousel')"
       >
         <img src="{{ items.media[i].img }}" class="img-fluid" />
       </li>
@@ -133,7 +133,7 @@ banner: /assets/img/page-masthead2.png
         class="list-inline-item"
         data-target="#{{ carouselName }}Carousel"
         data-slide-to="{{ i }}"
-        onclick="reloadYT(event, '{{ carouselName }}Carousel')"
+        onclick="reloadVid(event, '{{ carouselName }}Carousel')"
       >
         <img src="{{ items.media[i].img }}" class="img-fluid" />
       </li>
@@ -142,7 +142,7 @@ banner: /assets/img/page-masthead2.png
   </div>
 
   {% for paragraphs in items.text %}
-  <p style="word-break: break-word;">{{ paragraphs.para }}</p>
+  <p style="word-break: break-word">{{ paragraphs.para }}</p>
   {% endfor %}
   <br /><br />
   {% endfor %}

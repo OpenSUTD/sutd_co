@@ -18,6 +18,9 @@
         letter-spacing: -1px;
         text-align: center;
       }
+      .titles {
+        text-align: left;
+      }
     </style>
     <html lang="en">
       <head>
@@ -99,7 +102,7 @@
           style="background-image: url({{page.banner}});"
         >
           <div class="container text-center my-auto">
-            <a href="/" style="color: white; text-decoration: none;" ;>
+            <a href="/" style="color: white; text-decoration: none" ;>
               <h1 class="mb-1">SUTD Chinese Orchestra</h1>
             </a>
           </div>
@@ -159,19 +162,42 @@
     console.log(e.currentTarget);
     e.target.className += " active";
 
-    //Stop playing the yt vid if user chooses another tab
+    // Stop playing the yt vid if user chooses another tab
     ytContainer = document.getElementsByTagName("iframe");
     for (i = 0; i < ytContainer.length; i++) {
       ytContainer[i].src = ytContainer[i].src;
     }
   }
 
-  //Stop playing the yt vid if user clicks next, prev, or gallery
-  function reloadYT(event, carouselID) {
+  // Stop playing the yt vid if user clicks next, prev, or gallery
+  function reloadVid(event, carouselID) {
     targetCarousel = document.getElementById(carouselID);
-    ytContainer = targetCarousel.getElementsByTagName("iframe");
-    for (i = 0; i < ytContainer.length; i++) {
-      ytContainer[i].src = ytContainer[i].src;
+    // check current active slide
+    targetSlide = targetCarousel.getElementsByClassName("active");
+    // index 0 because there are 2 active elements: the actual slide, and the thumbnail in the carousel
+    ytContainer = targetSlide[0].getElementsByTagName("iframe");
+    vidContainer = targetSlide[0].getElementsByTagName("video");
+    // index 0 because it's getting elements so it's in some array like structure
+    if (ytContainer) {
+      ytContainer[0].src = ytContainer[0].src;
+    }
+    if (vidContainer) {
+      vidContainer[0].pause();
     }
   }
+
+  // function reloadVid(event, carouselID) {
+  //   targetCarousel = document.getElementById(carouselID);
+  //   ytContainer = targetCarousel.getElementsByTagName("iframe");
+  //   vidContainer = targetCarousel.getElementsByTagName("video");
+  //   if (ytContainer.length > 0) {
+  //     for (i = 0; i < ytContainer.length; i++) {
+  //       ytContainer[i].src = ytContainer[i].src;
+  //     }
+  //   } else if (vidContainer.length > 0) {
+  //     for (j = 0; j < vidContainer.length; j++) {
+  //       vidContainer[j].pause();
+  //     }
+  //   }
+  // }
 </script>

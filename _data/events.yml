@@ -1,9 +1,10 @@
 # This is the compiled sources for the 'Events' page
 # For the text segment, if multiple paragraphs are required, use a new '-para' property for each new paragraph
-# Also, if your paragraph gets too long, use "-para: |", then newlines can be added in here for more convenient typing. You don't even need quotation marks in this case
+# Also, if your paragraph gets too long, use "-para: |", then newlines can be added in here for more convenient typing.
+# You don't even need quotation marks in this case, and in fact you can now add HTML as well
 # As with all YAML, you just need to be extremely careful with the indentation
 
-# IMPT: Please make sure all Event 'title' are unique!
+# IMPT: Please make sure each Event 'title' is unique!
 
 - category: "Upcoming"
   default: false
@@ -21,28 +22,29 @@
   default: true # sets the default tab to be shown on page load
   header: "Our Events in 2020 (so far!)" # a one-time title at the start of the page
   content:
-    - title: "Guest-playing with Reverberance Percussion Ensemble at Esplanade" #title of each post. Note: no special characters! ***********
+    - title: "Guest-playing with Reverberance Percussion Ensemble at Esplanade" # title of each post
       date: "14th February"
       text:
         - para: |
-            SUTDCO Percussion supported Reverberance's own Percussion Section at the Esplanade Outdoor Theatre in a performance featuring a variety of traditional Chinese Percussion classics. Link: https://www.esplanade.com/festivals-and-series/cool-classics/2020/chinese-percussion-classics
+            SUTDCO Percussion supported Reverberance's own Percussion Section at the Esplanade Outdoor Theatre 
+            in a performance featuring a variety of traditional Chinese Percussion classics. 
+            Link: <a href="https://www.esplanade.com/festivals-and-series/cool-classics/2020/chinese-percussion-classics">https://www.esplanade.com/festivals-and-series/cool-classics/2020/chinese-percussion-classics</a>
       media:
-        - img: "/assets/img/portfolio-1.jpg"
-          caption: "Photo credit: Tan Bing Liang (haven't actually asked him though)"
-        - img: "/assets/img/bg-masthead.jpg"
-          yt: | # testing embed yt vid in carousel
-            <iframe src="https://www.youtube.com/embed/videoseries?list=PLV_Gsq0eeGS-tSiihU_cYTHEn23leoU3V" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        - img: "/assets/img/2020/reverb_espla.jpg"
+          caption: |
+            Photo by Tan Bing Liang (<a href="https://tbl3001.wixsite.com/tblphoto">Website</a>)
 
-    - title: "Lunchtime Performance at SUTD"
+    - title: "Lunchtime Performance Feb 2020"
       date: "5th February"
       text:
         - para: |
-            SUTDCO performed 4 pieces: Feng Shou Luo Gu 丰收锣鼓（Guzheng 古筝), Xi Qing Luo Gu 喜庆锣鼓 (Percussion, 打击乐), Ying Chun Jie Fu 迎春接福 (Orchestra, 合奏) , and Jin She Kuang Wu 金蛇狂舞 (Orchestra, 合奏) for the SUTD community. Check out our performances here! Link: insta
+            SUTDCO performed 4 pieces: Feng Shou Luo Gu 丰收锣鼓（Guzheng 古筝), Xi Qing Luo Gu 喜庆锣鼓 (Percussion, 打击乐), 
+            Ying Chun Jie Fu 迎春接福 (Orchestra, 合奏) , and Jin She Kuang Wu 金蛇狂舞 (Orchestra, 合奏) for the SUTD community. 
+            Check out our performances here! Link: insta
       media:
-        - img: "/assets/img/portfolio-2.jpg" # multiple pics for the carousel
-          caption: "Photo credit: Phyllis"
-        - img: "/assets/img/2020LTP.png" # might wanna look into making a subfolder in assets/img to better organise
-          caption: "Photo credit: Phyllis"
+        - img: "/assets/img/2020/2020ltp1.png" # multiple pics for the carousel
+        - img: "/assets/img/2020/2020ltp2.jpg"
+          caption: "Photo by Ferry Chandra (SUTD)"
 
 - category: "2019"
   default: false
@@ -51,24 +53,77 @@
     - title: "Impressions II Concert"
       date: "17th November"
       text:
-        - para: "On 17th of November 2019, SUTDCO hosted its 2nd ever concert, Impressions II, with a repertoire consisting of tracks from cult classic video game Shenmue to melodious pieces composed by multi-talented local composer Wang Chenwei. Aided by our faculty members, Prof. Tan Dayang, Prof. Chen Jer-Ming, and Prof. Lim Seh Chun, the performance was a success and marked another page in our club's short history."
+        - para: |
+            On 17th of November 2019, SUTDCO hosted its 2nd ever concert, Impressions II, with a repertoire 
+            consisting of tracks from cult classic video game Shenmue to melodious pieces composed by multi-talented local composer Wang Chenwei. 
+            Aided by our faculty members, Prof. Tan Dayang, Prof. Chen Jer-Ming, and Prof. Lim Seh Chun, the performance was a success and marked another page in our club's short history.
       media:
-        - img: "/assets/img/placeholder.png"
-          caption: "photo cr:____"
+        - img: "/assets/img/2019/impre2_thumb.jpg" # used for carousel thumbnail
+          vid: |
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLV_Gsq0eeGS-tSiihU_cYTHEn23leoU3V" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        - img: "/assets/img/2019/impre2_1.jpg"
+          caption: "Photo by Nigel Gomes (SUTD PhotogCircle)"
+        - img: "/assets/img/2019/impre2_2.jpg"
+          caption: "Photo by Evan Sidhi (SUTD PhotogCircle)"
+        - img: "/assets/img/2019/impre2_3.jpg"
+          caption: "Photo by Evan Sidhi (SUTD PhotogCircle)"
+        - img: "/assets/img/2019/impre2_4.jpg"
+          caption: "Photo by Nigel Gomes (SUTD PhotogCircle)"
+        - img: "/assets/img/2019/impre2_5.jpg"
+          caption: "Photo by Nigel Gomes (SUTD PhotogCircle)"
+        - img: "/assets/img/2019/impre2_6.jpg"
+          caption: "Photo by Evan Sidhi (SUTD PhotogCircle)"
+        - img: "/assets/img/2019/impre2_7.jpg"
+          caption: "Photo by Nigel Gomes (SUTD PhotogCircle)"
+        - img: "/assets/img/2019/impre2_8.jpg"
+          caption: "Photo by Evan Sidhi (SUTD PhotogCircle)"
+        - img: "/assets/img/2019/impre2_9.jpg"
+          caption: "Photo by Evan Sidhi (SUTD PhotogCircle)"
+        - img: "/assets/img/2019/impre2_10.jpg"
+          caption: "Photo by Wen Kang (SUTD PhotogCircle)"
+        - img: "/assets/img/2019/impre2_11.jpg"
+          caption: "Photo by Wen Kang (SUTD PhotogCircle)"
+        - img: "/assets/img/2019/impre2_12.jpg"
+          caption: "Photo by Wen Kang (SUTD PhotogCircle)"
+        - img: "/assets/img/2019/impre2_13.jpg"
+          caption: "Photo by Sean Ang (SUTD PhotogCircle)"
+        - img: "/assets/img/2019/impre2_14.jpg"
+          caption: "Photo by Sean Ang (SUTD PhotogCircle)"
+        - img: "/assets/img/2019/impre2_15.jpg"
+          caption: "Photo by Sean Ang (SUTD PhotogCircle)"
+
+    - title: "GALA at Shangri-La Hotel"
+      date: "23rd October"
+      text:
+        - para: ""
+      media:
+        - img: "/assets/img/2019/2019gala_1.jpg"
+        - img: "/assets/img/2019/2019gala_2.jpg"
 
     - title: "Matriculation Day - Fifth Row Showcase"
-      date: "DDMMYY"
+      date: "15th May"
       text:
-        - para: "As part of the 2019 Freshman Orientation Programme, SUTDCO Percussion presented two separate renditions of Long Teng Hu Yue (龙腾虎跃) to the incoming freshmen. Check out our performance! Link:"
+        - para: |
+            As part of the 2019 Freshman Orientation Programme, SUTDCO Percussion presented two separate renditions of Long Teng Hu Yue (龙腾虎跃) 
+            to the incoming freshmen.
       media:
-        - img: "/assets/img/placeholder.png"
-          caption: "photo cr:____"
-          
+        - img: "/assets/img/2019/2019matric.jpg"
+        - img: "/assets/img/2019/2019matric_thumb1.jpg"
+          vid: |
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YL3VG760t98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        - img: "/assets/img/2019/2019matric_thumb2.jpg"
+          vid: |
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lv53bYMeDBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     - title: "Open House & Night Fiesta"
-      date: "Date"
+      date: "23rd and 24th February"
       text:
         - para: "SUTDCO participated in SUTD's Open House "
       media:
+        - img: "/assets/img/2019/2019oh_1.jpg"
+        - img: "/assets/img/2019/2019oh_2.jpg"
+        - img: "/assets/img/2019/2019oh_3.jpg"
+        - img: "/assets/img/2019/2019oh_4.jpg"
 
 - category: "2018"
   default: false
@@ -77,66 +132,87 @@
     - title: "Impressions Concert"
       date: "10th November"
       text:
-        - para: "10th of November 2018 marked a landmark occasion in SUTDCO's history: first ever concert performed by our club. Titled 'Impressions', the concert was " 
+        - para: |
+            10th of November 2018 marked a landmark occasion in SUTDCO's history: the first ever concert performed by our club. 
+            Titled 'Impressions', the concert was...
       media:
-        - img: "/assets/img/placeholder.png"
-          caption: "photo cr:____"
+        - img: "/assets/img/2018/impre1_thumb.jpg"
+          vid: |
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLV_Gsq0eeGS9VZhxM4GJOdT6YuWZeOUmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        - img: "/assets/img/2018/impre1_1.jpg"
+          caption: "Photo by Jeff Neo (SUTD PhotogCircle)"
+        - img: "/assets/img/2018/impre1_2.jpg"
+          caption: "Photo by Li Yunhao (SUTD PhotogCircle)"
+        - img: "/assets/img/2018/impre1_3.jpg"
+          caption: "Photo by Evan Sidhi (SUTD PhotogCircle)"
+        - img: "/assets/img/2018/impre1_4.jpg"
+          caption: "Photo by Jeff Neo (SUTD PhotogCircle)"
+        - img: "/assets/img/2018/impre1_5.jpg"
+          caption: "Photo by Li Yunhao (SUTD PhotogCircle)"
+        - img: "/assets/img/2018/impre1_6.jpg"
+          caption: "Photo by Evan Sidhi (SUTD PhotogCircle)"
+        - img: "/assets/img/2018/impre1_7.jpg"
+          caption: "Photo by Jeff Neo (SUTD PhotogCircle)"
+        - img: "/assets/img/2018/impre1_8.jpg"
+          caption: "Photo by Evan Sidhi (SUTD PhotogCircle)"
 
-    - title: "Donor Performance"
-      date: "14th September"
-      text:
-        - para: "Event description"
-      media:
-        - img: "/assets/img/placeholder.png"
-          caption: "photo cr:____"
-          
-    - title: "Lunchtime Performance"
-      date: "18th July"
-      text: 
-        - para: ""
-      media:
-      
-    - title: "SBF Dinner Performance at Trade Association Hall"
-      date: "6th May"
+    - title: "Matriculation Day 2018"
+      date: "9th May"
       text:
         - para: ""
       media:
-      
-    - title: "Greendale Secondary Concert"
-      date: "6th April"
-      text:
-        - para: ""
-      media:
-      
-    - title: "Lunchtime Performance"
+        - img: "/assets/img/2018/matric2018.png"
+          vid: |
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsutdco%2Fvideos%2F1738994869524694%2F&show_text=false&width=734&height=411&appId" width="734" height="411" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+
+    - title: "Lunchtime Performance Mar 2018"
       date: "21st March"
       text:
         - para: ""
-      media: 
-      
+      media:
+        - img: "/assets/img/2018/2018ltp2.jpg"
+        - img: "/assets/img/2018/2018ltp1.jpg"
+
     - title: "SUTD Open House 2018"
       date: "3rd and 4th March"
       text:
         - para: ""
-      media: 
-      
+      media:
+        - img: "/assets/img/2018/2018oh_1.jpg"
+        - img: "/assets/img/2018/2018oh_2.jpg"
+        - img: "/assets/img/2018/2018ohthumb_1.jpg"
+          vid: |
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/17kZmsPXTw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        - img: "/assets/img/2018/2018ohthumb_2.jpg"
+          vid: |
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/m4rula5sCww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        - img: "/assets/img/2018/2018oh_3.jpg"
+        - img: "/assets/img/2018/2018oh_4.jpg"
+        - img: "/assets/img/2018/2018oh_5.jpg"
+        - img: "/assets/img/2018/2018oh_6.jpg"
+        - img: "/assets/img/2018/2018oh_7.jpg"
+
     - title: "Chingay 2018"
-      date: "Date"
+      date: "23rd February"
       text:
         - para: ""
-      media: 
-      
-    - title: "Spring Reception"
-      date: "18th February"
+      media:
+        - img: "/assets/img/2018/Chingay_rehearsal_2.jpg"
+        - img: "/assets/img/2018/Chingay.jpg"
+        - img: "/assets/img/2018/Chingay_rehearsal_1.jpg"
+
+    - title: "Donor Appreciation Event (YZ Foundation)"
+      date: "9th January"
       text:
         - para: ""
-      media: 
-     
-    - title: "Donor Performance"
-      date: "Date"
-      text: 
-        - para: ""
-      media: 
+      media:
+        - img: "/assets/img/2018/9janperf_3.jpg"
+        - img: "/assets/img/2018/9janperf_1.png"
+          vid: |
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsutdco%2Fvideos%2F1618868888203960%2F&show_text=false&width=734&height=411&appId" width="734" height="411" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+        - img: "/assets/img/2018/9janperf_2.png"
+          vid: |
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsutdco%2Fvideos%2F1618883304869185%2F&show_text=false&width=734&height=411&appId" width="734" height="411" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
 
 - category: "2017"
   default: false
@@ -145,15 +221,24 @@
     - title: "Opening of Upper Changi (DTL) MRT Station"
       date: "15th October"
       text:
-        - para: "SUTDCO's first major event was performing Xi Qing Luo Gu (喜庆锣鼓) for the opening of Upper Changi MRT Station, which is situated right beside our campus."
+        - para: |
+            SUTDCO's first major event was performing Xi Qing Luo Gu (喜庆锣鼓) for the opening of Upper Changi MRT Station, 
+            which is situated right beside our campus.
       media:
-        - img: "/assets/img/placeholder.png"
-          caption: "photo cr:____"
+        - img: "/assets/img/2017/dtl_opening2.jpg"
+          caption: ""
+        - img: "/assets/img/2017/dtl_opening1.png"
+          vid: |
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsutdco%2Fvideos%2F1634687819955400%2F&show_text=false&width=734&height=415&appId" width="734" height="415" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
 
-    - title: "Lunchtime Performance"
+    - title: "Lunchtime Performance Sept 2017"
       date: "27th September"
       text:
         - para: "Event description"
       media:
-        - img: "/assets/img/placeholder.png"
-          caption: "photo cr:____"
+        - img: "/assets/img/2017/ltp1.png"
+          vid: |
+            <video src="/assets/img/2017/ltp1.mp4" controls></video>
+        - img: "/assets/img/2017/ltp2.png"
+          vid: |
+            <video src="/assets/img/2017/ltp2.mp4" controls></video>
