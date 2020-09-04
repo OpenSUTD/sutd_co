@@ -1,38 +1,192 @@
-# This is the compiled content for the 'People' page. You're free to add more categories, just needa follow the template and all the properties
+# This is the compiled content for the 'People' page. You're free to add more categories, just follow the template and all the properties
 # For the text segment, if multiple paragraphs are required, use a new '-para' property for each new paragraph
 # Also, if your paragraph gets too long, use "-para: |", then newlines can be added in here for more convenient typing. You don't even need quotation marks in this case
-# As with all YAML, you just need to be extrenely careful with the indentation
+# As with all YAML, you need to be extremely careful with indentation
 
 - category: "Conductors & Instructors" # the name of the tab, which is your category anyway
   default: true # sets the default tab to be shown on page load
   content:
-    - title: "role"
-      name: "placeholder"
-      img: "/assets/img/placeholder.png"
+    - title: "Resident Conductor"
+      name: "Goh Wei Hong"
+      img: "/assets/img/WeiHong.jpg"
       text:
         - para: |
-            "writeup here"
-            "the newlines here won't be shown on the page"
-            you actually don't need quotation marks
-        - para: "second para testing"
+            Performer, Conductor, and Educator. Suona Artiste Goh Wei Hong took the Singapore Chinese Music scene by storm when 
+            he emerged the First Prize winner of the National Chinese Music Competition 2016 Suona Open Category.
 
-    - title: "role"
-      name: "placeholder"
-      img: "/assets/img/placeholder.png"
-      text:
-        - para: "writeup here"
+        - para: |
+            Wei Hong first began his musical journey when he joined his Primary School Chinese Orchestra at the age of 9. 
+            He was learning the Chinese Bamboo Flute (Dizi) from Mr. Er Chang Siong, before switching to the Suona at age 13, 
+            during his Secondary School years studying under Mr. Lee Kern Siang. Wei Hong then decided to go pro as he enrolled 
+            into the Nanyang Academy of Fine Arts (NAFA) Diploma in Music to study with Suona Maestro Mr. Ding Huai Cheng.
 
-- category: "Committee"
-  default: false
-  content:
-    - title: "position"
-      name: "placeholder"
-      img: "/assets/img/placeholder.png"
-      text:
-        - para: "writeup here"
+        - para: |
+            Through his years as a student, Wei Hong’s assiduous nature combined with his unique flair and aptitude for the 
+            Suona gained him countless opportunities to showcase his talent locally and on the worldwide stage.
 
-    - title: "position"
-      name: "placeholder"
-      img: "/assets/img/placeholder.png"
+        - para: |
+            Singapore Youth Chinese Orchestra (SYCO) and Arts Sphere Chamber Ensemble are but two of the many orchestras that 
+            sought Wei Hong’s striking splendour. He represented SYCO to perform for the Tainan International Chishi Arts 
+            Festival (Taiwan) and was the pioneer musician for Arts Sphere Chamber Ensemble when they won the first prize 
+            for the National Chinese Music Competition in 2008. He followed Arts Sphere to Wales a year later and won 
+            first prize for the Llangollen International Musical Eisteddfod. He was also Second Runner-Up for the Zhong Xin 
+            International Music Competition. "
+
+        - para: |
+            He was later mentored by critically acclaimed Suona Maestro Hou Yan Qiu, Meng Jie and Mr. Jin Shi Yi, 
+            Singapore Chinese Orchestra Suona / Guan Principal.
+
+        - para: |
+            Wei Hong was chosen to represent Singapore to perform in the ASEAN-Korea Traditional Orchestra and the 
+            Youth ASEAN Group Exchange, travelling across Korea, Thailand, Myanmar and China. 
+            He also toured in Malaysia, Taiwan, Hong Kong, Japan, Uzbekistan and England.
+
+        - para: |
+            Wei Hong shares his love for Chinese music with a burning passion; he is a well-acclaimed educator and conductor in 
+            various schools where he serves as an inspirational figure and is widely loved by all. Among some of the schools that 
+            he taught at are National Junior College, Raffles Girls School, Greendale Secondary School, Chongfu School 
+            and Singapore University of Technology and Design. "
+
+        - para: |
+            Wei Hong now serves as the Executive Director of Reverberance 回响, an all Singaporean professional Wind Percussion 
+            ensemble that comprises of the young and most talented individuals who shares a common love for music making 
+            in pursuit of the highest musical order."
+
+    - title: "Associate Conductor & Percussion Instructor"
+      name: "Benjamin Boo"
+      img: "/assets/img/Ben2020.jpg"
       text:
-        - para: "writeup here"
+        - para: |
+            Benjamin Boo joined Singapore Chinese Orchestra (SCO) in March 2018 as a percussionist. He graduated from 
+            the Royal College of Music (London) (RCM) with a Masters of Performance (Distinction) in 2016, under the 
+            support of the Neville Wathen Award and the tutelage of renowned percussionists including David Hockings, 
+            She-e Wu, Matt Perry, and Ralph Salmins. His unique experiences in traditional Chinese Percussion also resulted 
+            in an opportunity to teach and perform traditional Chinese Percussion with RCM’s Percussion Department. 
+            While in London, he also performed with The Philharmonia, Royal Philharmonic Orchestra, the Musical “Motown”, 
+            and the BBC Symphony Orchestra, with exclusive training under the BBCSO Pathway Scheme 2014 – 2015.
+
+        - para: |
+            Benjamin started learning music and Piano under the tutelage of his father and mother at the age of 3. He was 
+            first exposed to Chinese Percussion at the age of 9 when he joined his primary school’s Chinese Orchestra under 
+            the baton of his father. A year later, Benjamin began studying Chinese Percussion with Mr. Quek Ling Kiong, 
+            the current Associate Conductor of the Singapore Chinese Orchestra (SCO), for over a decade. Through Mr. Quek’s 
+            recommendation, Benjamin also picked up Western Percussion with Mr. Ngoh Kheng Seng (SCO) from 2004. In 2007, he 
+            enrolled in the Nanyang Academy of Fine Arts (NAFA) for Western Percussion on the National Arts Council (NAC) 
+            Georgette-Chen Bursaries Award. Under the tutelage of Mark Suter (Associate Principal, Percussion, SSO), Benjamin 
+            attained his Diploma in Music Performance in 2010. He then furthered his studies in Music Theory with Cultural 
+            Medallion Recipient, Mr Phoon Yew Tien. In 2014, Benjamin graduated with First-Class Honours for his Bachelor of 
+            Music (Hons) through the NAFA-RCM joint degree programme.
+
+        - para: |
+            In his pursuit of musical excellence, Benjamin has achieved many accolades in local music competitions. In 2008, 
+            he led his percussion ensemble “Symphonic Percussion” to Championship in the first ever NAC Chinese Music 
+            Competition for Percussion. He also participated in the International Chinese Arts Festival Percussion Competition 
+            2014 and was awarded the Third Prize for Chinese Percussion Solo Category, and First Prize for Western Percussion 
+            Marimba Solo Category. Most recently, Benjamin was also awarded Third Prize in the National Indian Music 
+            Competition 2017, Mridangam Open Category.
+
+        - para: |
+            As an active and highly sought-after performer in Singapore, Benjamin had begun freelancing with the SCO as early 
+            as 2007, and with the Singapore Symphony Orchestra (SSO) in 2012. He was invited by the Arts Fission dance company 
+            to perform with them in Melbourne for the Mapping Melbourne Festival in 2016. In 2017, Benjamin was invited to 
+            tour Italy and Germany with his duet partner (The Untouchables) as a highlight feature of Zappanale #28, a Frank 
+            Zappa Music Festival. In 2019, Benjamin was invited with his colleagues from SCO, as well as local Chinese 
+            Instrumental Band “MUSA” to come together as a new ensemble “新月 MUSA” to represent Singapore in China’s major 
+            Chinese Instrumental talent show “国乐大典”.
+
+        - para: |
+            Benjamin is also co-founder and ensemble principal of local Chinese Wind and Percussion group Reverberance 回响. 
+            Reverberance 回响 specializes in Traditional Chinese Wind and Percussion music and strives to bring about a new 
+            era of Chinese Wind and Percussion music through the combination of Traditional and Modern elements of the art 
+            form.
+
+        - para: "Benjamin proudly endorses Innovative Percussion, as well as Pantheon Percussion."
+
+    - title: "Huqin Instructor"
+      name: "Lim Kwuan Boon"
+      img: "/assets/img/placeholder.jpg"
+      text:
+        - para: |
+            Kwuan Boon picked up the Erhu when he joined Raffles Institution Chinese Orchestra in 2002. Kwuan
+            Boon held several key positions in many orchestras, such as bowed string sectional leader and concert
+            master, and is one of the founders and the Quartet Master of the Chinese string quartet, Stringanza. He
+            was also the Associate Principal for Bowed Strings Section for Ding Yi Music Company from 2010 to
+            2016, as well as a member of the SAF Music and Drama Company.
+
+        - para: |
+            Under the tutelage of both Mr. Wong Sun Tat and Ms. Shen Qin, Kwuan Boon obtained his diploma in
+            Erhu performance in 2007 and won the second prize in the biennial National Chinese Music Competition
+            Erhu open category in 2010 and 2016. Currently, he has performed in more than 60 concerts, and has
+            staged several solo and concerto performances with various orchestras. Notably, he staged his first
+            recital together with two other musicians from Ding Yi Music Company in 2013 at the Esplanade Recital
+            Studio. He has performed locally, as well as overseas in Taiwan, Hong Kong, Malaysia, Indonesia, China,
+            Germany and Uzbekistan.
+
+        - para: |
+            To date, Kwuan Boon has taught as a relief instructor in various Primary Schools, Secondary Schools and
+            Junior College, such as Catholic High Primary, Elias Park Primary, Nanyang Primary, Mee Toh School,
+            Pei Chun Public School, East View Secondary, Bedok South Secondary, Anglican High School, Bukit
+            Panjang Government High School and many more. He is currently the Erhu instructor of Chongfu School,
+            Greendale Secondary School, National Junior College and Singapore University of Design and
+            Technology. Kwuan Boon has also coached students privately, with some of them obtaining up to grade 9
+            in Erhu performance in the grading exam organized jointly by the Nanyang Academy of Fine Arts (NAFA)
+            and Central Conservatory of Music (Beijing).
+
+    - title: "Guest Conductor"
+      name: "Tan Da Yang (Lecturer, Science)"
+      img: "/assets/img/profdayang.jpg"
+      text:
+        - para: |
+            Professor Da Yang is currently a lecturer in the Science and Math Cluster in SUTD. As a musician, he also serves 
+            as the associate conductor for Bukit Batok Chinese Orchestra and has successfully led the orchestra in numerous 
+            concerts and performances, both locally and overseas, since 2012. Da Yang was selected as one of the three 
+            participants in the Conducting Masterclass on Chinese Music Conducting organised by Singapore’s National Arts 
+            Council, Esplanade - Theatres by the Bay, Singapore Chinese Music Federation and Hong Kong Chinese Orchestra 
+            and was taught by the Hong Kong Chinese Orchestra’s Artistic Director and Principal Conductor, Maestro Yan 
+            Huichang in 2014. During the masterclass, Da Yang was further exposed to the the art of conducting from Maestro 
+            Yan. In 2015, Da Yang was again selected to join the conducting workshop organised by Singapore Chinese Orchestra. 
+            Under the tutelage of Maestro Tsung Yeh, Da Yang was given the opportunity to conduct the Singapore Chinese Orchestra. 
+            Notably, Da Yang was only non-music major participant who was selected for both the masterclass and the conducting 
+            workshop. This year, Da Yang also took part in the Woodlands Young Conductors Workshop and received the guidance of 
+            Maestro Muhamad Yusri on symphonic band conducting and Maestro Tsung Yeh on the conducting of chamber ensembles. 
+            In the research domain, Da Yang is currently interested in the exploratory studies of acoustics for Asian instruments 
+            such as Erhu and Dizi, as well as social phenomenon and systems from the complexity science perspective.
+
+    - title: "Founding President"
+      name: "Tay Wei Liang, Andy"
+      img: "/assets/img/AndyTay.jpg"
+      text:
+        - para: |
+            Andy started learning the dizi at the age of thirteen from dizi maestro Professor Zhan Yong Ming. Under the careful 
+            tutelage of Professor Zhan, Andy was awarded both as a soloist as well as an ensemble musician. He has extended his 
+            knowledge by teaching the young budding musicians and also senior citizens passionate about music. His patience in his 
+            teaching has allowed him to nurture many young talents. His numerous individual students have not let him down in their 
+            grading examinations, with all of them scoring merit and above.
+
+        - para: |
+            Andy's love for music grew over the years, from learning the Dizi, to perform, to teach, to compose music. Andy 
+            started learning composition at the age of twenty-two from cultural medallion recipient Mr Law Wai Lun. Andy have 
+            World Premiere pieces such as Princess Santubong, The Legend of Kusu, Colours of a little red dot, Water Lily, 
+            Piper's Journey, Village of Stars and Winds of Sahara. He spends his free time learning the Ukulele and extending 
+            his knowledge of music theory. He also participates as the treasurer of the Singapore Dizi Society. Besides 
+            devoting his time to music, Andy's favourite hobby is bowling.
+
+        - para: |
+            Andy founded SUTD Chinese Orchestra (SUTDCO) in 2015 with the vision to promote the appreciation of Chinese music 
+            and bring people together through music. Since its inception, the EXCO members of the orchestra have been actively 
+            running the Fifth Row.
+
+# - category: "Committee"
+#   default: false
+#   content:
+#     - title: "position"
+#       name: "placeholder"
+#       img: "/assets/img/placeholder.jpg"
+#       text:
+#         - para: "writeup here"
+
+#     - title: "position"
+#       name: "placeholder"
+#       img: "/assets/img/placeholder.jpg"
+#       text:
+#         - para: "writeup here"
