@@ -17,7 +17,7 @@
       text:
         - para: "SUTDCO Introductory Session 2020"
       media:
-        - img: "/assets/img/placeholder.png" # it's fine to only have 1 pic for the carousel
+        - img: "/assets/img/placeholder.jpg" # it's fine to only have 1 pic for the carousel
           # caption: "photo cr:____" # you can include photo credits with caption, or anything else really
 
 - category: "2020" # name of the tab, which is the category chosen to organise the events under
@@ -44,7 +44,7 @@
             Ying Chun Jie Fu 迎春接福 (Orchestra, 合奏) , and Jin She Kuang Wu 金蛇狂舞 (Orchestra, 合奏) for the SUTD community. 
             Check out our performances here! Link: insta
       media:
-        - img: "/assets/img/2020/2020ltp1.png" # multiple pics for the carousel
+        - img: "/assets/img/2020/2020ltp1.jpg" # multiple pics for the carousel
         - img: "/assets/img/2020/2020ltp2.jpg"
           caption: "Photo by Ferry Chandra (SUTD)"
 
@@ -163,7 +163,7 @@
       text:
         - para: ""
       media:
-        - img: "/assets/img/2018/matric2018.png"
+        - img: "/assets/img/2018/matric2018.jpg"
           vid: |
             <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsutdco%2Fvideos%2F1738994869524694%2F&show_text=false&width=734&height=411&appId" width="734" height="411" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
 
@@ -209,10 +209,10 @@
         - para: ""
       media:
         - img: "/assets/img/2018/9janperf_3.jpg"
-        - img: "/assets/img/2018/9janperf_1.png"
+        - img: "/assets/img/2018/9janperf_1.jpg"
           vid: |
             <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsutdco%2Fvideos%2F1618868888203960%2F&show_text=false&width=734&height=411&appId" width="734" height="411" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
-        - img: "/assets/img/2018/9janperf_2.png"
+        - img: "/assets/img/2018/9janperf_2.jpg"
           vid: |
             <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsutdco%2Fvideos%2F1618883304869185%2F&show_text=false&width=734&height=411&appId" width="734" height="411" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
 
@@ -229,7 +229,7 @@
       media:
         - img: "/assets/img/2017/dtl_opening2.jpg"
           caption: ""
-        - img: "/assets/img/2017/dtl_opening1.png"
+        - img: "/assets/img/2017/dtl_opening1.jpg"
           vid: |
             <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsutdco%2Fvideos%2F1634687819955400%2F&show_text=false&width=734&height=415&appId" width="734" height="415" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
 
@@ -238,9 +238,9 @@
       text:
         - para: "Event description"
       media:
-        - img: "/assets/img/2017/ltp1.png"
+        - img: "/assets/img/2017/ltp1.jpg"
           vid: |
             <video src="/assets/img/2017/ltp1.mp4" controls></video>
-        - img: "/assets/img/2017/ltp2.png"
+        - img: "/assets/img/2017/ltp2.jpg"
           vid: |
             <video src="/assets/img/2017/ltp2.mp4" controls></video>
