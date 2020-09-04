@@ -109,11 +109,11 @@
             As part of the 2019 Freshman Orientation Programme, SUTDCO Percussion presented two separate renditions of Long Teng Hu Yue (龙腾虎跃) 
             to the incoming freshmen.
       media:
-        - img: "/assets/img/2019/2019matric.jpg"
+        - img: "/assets/img/2019/2019matric.JPG"
         - img: "/assets/img/2019/2019matric_thumb1.jpg"
           vid: |
             <iframe width="560" height="315" src="https://www.youtube.com/embed/YL3VG760t98?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        - img: "/assets/img/2019/2019matric_thumb2.jpg"
+        - img: "/assets/img/2019/2019matric_thumb2.JPG"
           vid: |
             <iframe width="560" height="315" src="https://www.youtube.com/embed/lv53bYMeDBI?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -122,10 +122,10 @@
       text:
         - para: "SUTDCO participated in SUTD's Open House "
       media:
-        - img: "/assets/img/2019/2019oh_1.jpg"
-        - img: "/assets/img/2019/2019oh_2.jpg"
-        - img: "/assets/img/2019/2019oh_3.jpg"
-        - img: "/assets/img/2019/2019oh_4.jpg"
+        - img: "/assets/img/2019/2019oh_1.JPG"
+        - img: "/assets/img/2019/2019oh_2.JPG"
+        - img: "/assets/img/2019/2019oh_3.JPG"
+        - img: "/assets/img/2019/2019oh_4.JPG"
 
 - category: "2018"
   default: false
@@ -172,7 +172,7 @@
       text:
         - para: ""
       media:
-        - img: "/assets/img/2018/2018ltp2.jpg"
+        - img: "/assets/img/2018/2018ltp2.JPG"
         - img: "/assets/img/2018/2018ltp1.jpg"
 
     - title: "SUTD Open House 2018"
@@ -180,28 +180,28 @@
       text:
         - para: ""
       media:
-        - img: "/assets/img/2018/2018oh_1.jpg"
-        - img: "/assets/img/2018/2018oh_2.jpg"
-        - img: "/assets/img/2018/2018ohthumb_1.jpg"
+        - img: "/assets/img/2018/2018oh_1.JPG"
+        - img: "/assets/img/2018/2018oh_2.JPG"
+        - img: "/assets/img/2018/2018ohthumb_1.JPG"
           vid: |
             <iframe width="560" height="315" src="https://www.youtube.com/embed/17kZmsPXTw4?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        - img: "/assets/img/2018/2018ohthumb_2.jpg"
+        - img: "/assets/img/2018/2018ohthumb_2.JPG"
           vid: |
             <iframe width="560" height="315" src="https://www.youtube.com/embed/m4rula5sCww?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        - img: "/assets/img/2018/2018oh_3.jpg"
-        - img: "/assets/img/2018/2018oh_4.jpg"
-        - img: "/assets/img/2018/2018oh_5.jpg"
-        - img: "/assets/img/2018/2018oh_6.jpg"
-        - img: "/assets/img/2018/2018oh_7.jpg"
+        - img: "/assets/img/2018/2018oh_3.JPG"
+        - img: "/assets/img/2018/2018oh_4.JPG"
+        - img: "/assets/img/2018/2018oh_5.JPG"
+        - img: "/assets/img/2018/2018oh_6.JPG"
+        - img: "/assets/img/2018/2018oh_7.JPG"
 
     - title: "Chingay 2018"
       date: "23rd February"
       text:
         - para: ""
       media:
-        - img: "/assets/img/2018/Chingay_rehearsal_2.jpg"
+        - img: "/assets/img/2018/Chingay_rehearsal_2.JPG"
         - img: "/assets/img/2018/Chingay.jpg"
-        - img: "/assets/img/2018/Chingay_rehearsal_1.jpg"
+        - img: "/assets/img/2018/Chingay_rehearsal_1.JPG"
 
     - title: "Donor Appreciation Event (YZ Foundation)"
       date: "9th January"
