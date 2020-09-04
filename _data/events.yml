@@ -1,7 +1,9 @@
 # This is the compiled sources for the 'Events' page
-# For the text segment, if multiple paragraphs are required, use a new '-para' property for each new paragraph
-# Also, if your paragraph gets too long, use "-para: |", then newlines can be added in here for more convenient typing.
-# You don't even need quotation marks in this case, and in fact you can now add HTML as well
+# 1. For the text segment, if multiple paragraphs are required, use a new '-para' property for each new paragraph
+# 2. Also, if your paragraph gets too long, use "-para: |", then newlines can be added in here for more convenient typing.
+#     You don't even need quotation marks in this case, and in fact you can now add HTML as well
+# 3. If embedding fb videos, you need to be careful of their own set width and height to fit the 16:9 aspect rato
+# 4. If embedding youtube, add 'enablejsapi=1' after the question mark. Refer to examples below
 # As with all YAML, you just need to be extremely careful with the indentation
 
 # IMPT: Please make sure each Event 'title' is unique!
@@ -60,7 +62,7 @@
       media:
         - img: "/assets/img/2019/impre2_thumb.jpg" # used for carousel thumbnail
           vid: |
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLV_Gsq0eeGS-tSiihU_cYTHEn23leoU3V" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?enablejsapi=1&list=PLV_Gsq0eeGS-tSiihU_cYTHEn23leoU3V" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         - img: "/assets/img/2019/impre2_1.jpg"
           caption: "Photo by Nigel Gomes (SUTD PhotogCircle)"
         - img: "/assets/img/2019/impre2_2.jpg"
@@ -110,10 +112,10 @@
         - img: "/assets/img/2019/2019matric.jpg"
         - img: "/assets/img/2019/2019matric_thumb1.jpg"
           vid: |
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/YL3VG760t98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YL3VG760t98?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         - img: "/assets/img/2019/2019matric_thumb2.jpg"
           vid: |
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/lv53bYMeDBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lv53bYMeDBI?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     - title: "Open House & Night Fiesta"
       date: "23rd and 24th February"
@@ -138,7 +140,7 @@
       media:
         - img: "/assets/img/2018/impre1_thumb.jpg"
           vid: |
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLV_Gsq0eeGS9VZhxM4GJOdT6YuWZeOUmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?enablejsapi=1&list=PLV_Gsq0eeGS9VZhxM4GJOdT6YuWZeOUmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         - img: "/assets/img/2018/impre1_1.jpg"
           caption: "Photo by Jeff Neo (SUTD PhotogCircle)"
         - img: "/assets/img/2018/impre1_2.jpg"
@@ -182,10 +184,10 @@
         - img: "/assets/img/2018/2018oh_2.jpg"
         - img: "/assets/img/2018/2018ohthumb_1.jpg"
           vid: |
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/17kZmsPXTw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/17kZmsPXTw4?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         - img: "/assets/img/2018/2018ohthumb_2.jpg"
           vid: |
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/m4rula5sCww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/m4rula5sCww?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         - img: "/assets/img/2018/2018oh_3.jpg"
         - img: "/assets/img/2018/2018oh_4.jpg"
         - img: "/assets/img/2018/2018oh_5.jpg"

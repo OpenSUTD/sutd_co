@@ -177,27 +177,21 @@
     // index 0 because there are 2 active elements: the actual slide, and the thumbnail in the carousel
     ytContainer = targetSlide[0].getElementsByTagName("iframe");
     vidContainer = targetSlide[0].getElementsByTagName("video");
-    // index 0 because it's getting elements so it's in some array like structure
-    if (ytContainer) {
-      ytContainer[0].src = ytContainer[0].src;
+    // index 0 because you're getting elements so it's in some array like structure
+    if (ytContainer.length > 0) {
+      // this is a cool way to pause youtube without their API.
+      if (ytContainer[0].src.search("youtube") != -1) {
+        ytContainer[0].contentWindow.postMessage(
+          JSON.stringify({ event: "command", func: "pauseVideo" }),
+          "*"
+        );
+      } else {
+        // unfortunately fb embed doesn't support without their own api so only this works
+        ytContainer[0].src = ytContainer[0].src;
+      }
     }
-    if (vidContainer) {
+    if (vidContainer.length > 0) {
       vidContainer[0].pause();
     }
   }
-
-  // function reloadVid(event, carouselID) {
-  //   targetCarousel = document.getElementById(carouselID);
-  //   ytContainer = targetCarousel.getElementsByTagName("iframe");
-  //   vidContainer = targetCarousel.getElementsByTagName("video");
-  //   if (ytContainer.length > 0) {
-  //     for (i = 0; i < ytContainer.length; i++) {
-  //       ytContainer[i].src = ytContainer[i].src;
-  //     }
-  //   } else if (vidContainer.length > 0) {
-  //     for (j = 0; j < vidContainer.length; j++) {
-  //       vidContainer[j].pause();
-  //     }
-  //   }
-  // }
 </script>
