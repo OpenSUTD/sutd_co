@@ -41,7 +41,7 @@
       text:
         - para: |
             SUTDCO performed 4 pieces: Feng Shou Luo Gu 丰收锣鼓（Guzheng 古筝), Xi Qing Luo Gu 喜庆锣鼓 (Percussion, 打击乐), 
-            Ying Chun Jie Fu 迎春接福 (Orchestra, 合奏) , and Jin She Kuang Wu 金蛇狂舞 (Orchestra, 合奏) for the SUTD community. 
+            Ying Chun Jie Fu 迎春接福 (Orchestra, 合奏) , and Jin She Kuang Wu 金蛇狂舞 (Orchestra, 合奏) for the SUTD community in conjunction with the Chinese New Year period.
             Check out our performances here! Link: insta
       media:
         - img: "/assets/img/2020/2020ltp1.jpg" # multiple pics for the carousel
@@ -97,7 +97,7 @@
     - title: "GALA at Shangri-La Hotel"
       date: "23rd October"
       text:
-        - para: ""
+        - para: "SUTDCO was invited to perform at a gala dinner for all donors of SUTD in celebration of our school's 10th Anniversary. We performed 2 pieces: Xi Qing Luo Gu 喜庆锣鼓 (Percussion, 打击乐), and Sai Ma 赛马 (Orchestra, 合奏). "
       media:
         - img: "/assets/img/2019/2019gala_1.jpg"
         - img: "/assets/img/2019/2019gala_2.jpg"
@@ -120,7 +120,7 @@
     - title: "Open House & Night Fiesta"
       date: "23rd and 24th February"
       text:
-        - para: "SUTDCO participated in SUTD's Open House "
+        - para: "SUTDCO participated in SUTD's Open House and Night Fiesta, in what was a "
       media:
         - img: "/assets/img/2019/2019oh_1.JPG"
         - img: "/assets/img/2019/2019oh_2.JPG"
@@ -136,7 +136,7 @@
       text:
         - para: |
             10th of November 2018 marked a landmark occasion in SUTDCO's history: the first ever concert performed by our club. 
-            Titled 'Impressions', the concert was...
+            Titled 'Impressions', the concert was a great way to elevate each and every one of us in our levels, from our interaction with the guest players to playing in an orchestra for the first time. 
       media:
         - img: "/assets/img/2018/impre1_thumb.jpg"
           vid: |
@@ -236,7 +236,7 @@
     - title: "Lunchtime Performance Sept 2017"
       date: "27th September"
       text:
-        - para: "Event description"
+        - para: "SUTDCO started "
       media:
         - img: "/assets/img/2017/ltp1.jpg"
           vid: |
