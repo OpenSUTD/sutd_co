@@ -11,8 +11,8 @@ title: SUTDCO
       <div class="col-lg-10 mx-auto">
         <h2>About Us</h2>
         <p class="lead mb-5">
-          SUTD Chinese Orchestra (SUTDCO) started 5 years back in 2015 with just
-          4 passionate members and has since grown to a promising size with the
+          SUTD Chinese Orchestra (SUTDCO) started back in 2015 with just 4
+          passionate members and has since grown to a promising size with the
           skills required to perform professional grade musical pieces. SUTDCO
           has then been actively involved in various performance opportunities,
           including school events and external invitations. 2018 marked an
@@ -41,14 +41,9 @@ title: SUTDCO
     <div class="content-section-heading">
       <h2 class="mb-5">Our Sections</h2>
     </div>
-    <div class="row" style="padding-bottom: 50px;">
+    <div class="row" style="padding-bottom: 50px">
       <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-        <div class="service-icon rounded-circle mx-auto mb-3">
-          <a href="/woodwinds/">
-            <!-- that's the link to go to that page, if it exists -->
-            <div class="woodwinds"></div>
-          </a>
-        </div>
+        <div class="woodwinds service-icon rounded-circle mx-auto mb-3"></div>
 
         <h4>
           <strong>Woodwinds</strong>
@@ -56,11 +51,7 @@ title: SUTDCO
         <p class="text-faded mb-0">Dizi, Suona, Sheng</p>
       </div>
       <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-        <div class="service-icon rounded-circle mx-auto mb-3">
-          <a href="/huqin/">
-            <div class="huqin"></div>
-          </a>
-        </div>
+        <div class="huqin service-icon rounded-circle mx-auto mb-3"></div>
 
         <h4>
           <strong>Huqin</strong>
@@ -68,11 +59,7 @@ title: SUTDCO
         <p class="text-faded mb-0">The Hu family</p>
       </div>
       <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-        <div class="service-icon rounded-circle mx-auto mb-3">
-          <a href="/plucking/">
-            <div class="plucking"></div>
-          </a>
-        </div>
+        <div class="plucking service-icon rounded-circle mx-auto mb-3"></div>
 
         <h4>
           <strong>Plucking</strong>
@@ -80,11 +67,7 @@ title: SUTDCO
         <p class="text-faded mb-0">Zhongruan, Liuqin, Yangqin, Daruan</p>
       </div>
       <div class="col-lg-3 col-md-6">
-        <div class="service-icon rounded-circle mx-auto mb-3">
-          <a href="/percussion/">
-            <div class="perc"></div>
-          </a>
-        </div>
+        <div class="perc service-icon rounded-circle mx-auto mb-3"></div>
 
         <h4>
           <strong>Percussion</strong>
@@ -98,10 +81,8 @@ title: SUTDCO
 
 <!-- Callout -->
 <section class="callout">
-  <div class="container text-center" style="color: #ffffff;">
-    <h2 class="mx-auto mb-4">
-      Join us today!
-    </h2>
+  <div class="container text-center" style="color: #ffffff">
+    <h2 class="mx-auto mb-4">Join us today!</h2>
     <h4 class="mb-5">
       We are a group of passionate musicians who aim to promote and cultivate
       the interest and appreciation of Chinese music, by forging bridges between
@@ -123,7 +104,7 @@ title: SUTDCO
       <h5 class="text-secondary mb-0">Highlights</h5>
       <h2 class="mb-5">What we've been up to</h2>
     </div>
-    <div class="row no-gutters" style="padding-bottom: 50px;">
+    <div class="row no-gutters" style="padding-bottom: 50px">
       <!-- for loop here to iterate through highlights.yml, so that it is easier to edit and update the featured posts -->
       {% for items in site.data.highlights %}
       <div class="col-lg-6">
@@ -134,7 +115,11 @@ title: SUTDCO
               <p class="mb-0">{{ items.date }}</p>
             </span>
           </span>
-          <img class="img-fluid" src="{{ site.baseurl }}{{ items.img }}" />
+          <img
+            class="img-fluid"
+            src="{{ site.baseurl }}{{ items.img }}"
+            loading="lazy"
+          />
         </span>
       </div>
       {% endfor %}

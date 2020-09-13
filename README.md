@@ -157,7 +157,7 @@ Moving on, for Visual Studio there are a few useful extensions:
 
 ### Jekyll
 
-Jekyll is a site generator that is compatible with Github Pages, which is what's being used to host the site. Should you use Jekyll, first go to Visual Studio, then go to the `Terminal` tab on top, then click `New Terminal`. For the next few (or many) steps, all command lines are supposed to be entered in _this terminal_. Follow these instructions to install Jekyll for [Windows](https://jekyllrb.com/docs/installation/windows/) or [Mac](https://jekyllrb.com/docs/installation/macos/).
+Jekyll is a site generator that is compatible with Github Pages, which is what's being used to host the site. Should you use Jekyll, first go to Visual Studio, then go to the `Terminal` tab on top, then click `New Terminal`. For the next few (or many) steps, all command lines are supposed to be entered in _this terminal_. Follow these instructions to install Jekyll for [Windows](https://jekyllrb.com/docs/installation/windows/) or [Mac](https://jekyllrb.com/docs/installation/macos/). You may need to restart your com for the `gem install jekyll bundler` step.
 
 Then,
 
