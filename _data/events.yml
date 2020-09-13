@@ -13,7 +13,7 @@
   header: "SUTDCO's Upcoming Events"
   content:
     - title: "DiscoverSUTD 2020"
-      date: "To be confirmed!"
+      date: "21st September"
       text:
         - para: "SUTDCO Introductory Session 2020"
       media:
@@ -40,9 +40,8 @@
       date: "5th February"
       text:
         - para: |
-            SUTDCO performed 4 pieces: Feng Shou Luo Gu 丰收锣鼓（Guzheng 古筝), Xi Qing Luo Gu 喜庆锣鼓 (Percussion, 打击乐), 
-            Ying Chun Jie Fu 迎春接福 (Orchestra, 合奏) , and Jin She Kuang Wu 金蛇狂舞 (Orchestra, 合奏) for the SUTD community. 
-            Check out our performances here! Link: insta
+            SUTDCO performed 4 pieces: <i>Feng Shou Luo Gu</i> (丰收锣鼓), <i>Festive Gongs and Drums</i> (喜庆锣鼓), <i>Ying Chun Jie Fu</i> (迎春接福), and <i>Jin She Kuang Wu</i> 
+            (金蛇狂舞) for the SUTD community in conjunction with the Chinese New Year period. Check out our performances <a href="https://www.instagram.com/p/B8eA4K-l5ao/">here</a>!
       media:
         - img: "/assets/img/2020/2020ltp1.jpg" # multiple pics for the carousel
         - img: "/assets/img/2020/2020ltp2.jpg"
@@ -57,8 +56,9 @@
       text:
         - para: |
             On 17th of November 2019, SUTDCO hosted its 2nd ever concert, Impressions II, with a repertoire 
-            consisting of tracks from cult classic video game Shenmue to melodious pieces composed by multi-talented local composer Wang Chenwei. 
-            Aided by our faculty members, Prof. Tan Dayang, Prof. Chen Jer-Ming, and Prof. Lim Seh Chun, the performance was a success and marked another page in our club's short history.
+            consisting of tracks from cult classic video game <i>Shenmue</i> (莎木) to melodious pieces composed by multi-talented local composer Wang Chenwei 
+            (<i>Winds of Affinity</i> 笛缘, <i>Song of the Sisters’ Islands</i> 姐妹岛诵). Notably, the piece <i>Nostalgia of Time, First Movement “Remembrance”</i> (忆念之记忆犹新), 
+            was composed by our founding president, Andy, in commemoration of SUTD's 10th Anniversary and his own memories as a student
       media:
         - img: "/assets/img/2019/impre2_thumb.jpg" # used for carousel thumbnail
           vid: |
@@ -97,7 +97,9 @@
     - title: "GALA at Shangri-La Hotel"
       date: "23rd October"
       text:
-        - para: ""
+        - para: |
+            SUTDCO was invited to perform at a gala dinner for all donors of SUTD in celebration of our school's 10th Anniversary. 
+            We performed 2 pieces: <i>Festive Gongs and Drums</i> (喜庆锣鼓) and <i>Sai Ma</i> (赛马).
       media:
         - img: "/assets/img/2019/2019gala_1.jpg"
         - img: "/assets/img/2019/2019gala_2.jpg"
@@ -106,7 +108,7 @@
       date: "15th May"
       text:
         - para: |
-            As part of the 2019 Freshman Orientation Programme, SUTDCO Percussion presented two separate renditions of Long Teng Hu Yue (龙腾虎跃) 
+            As part of the 2019 Freshman Orientation Programme, SUTDCO Percussion presented two separate renditions of <i>Long Teng Hu Yue</i> (龙腾虎跃) 
             to the incoming freshmen.
       media:
         - img: "/assets/img/2019/2019matric.JPG"
@@ -120,8 +122,9 @@
     - title: "Open House & Night Fiesta"
       date: "23rd and 24th February"
       text:
-        - para: "SUTDCO participated in SUTD's Open House "
+        - para: "SUTDCO participated in SUTD's Open House and the first-ever Night Fiesta, in what was a fun-filled and unforgettable experience."
       media:
+        - img: "/assets/img/2019/2019oh_5.jpg"
         - img: "/assets/img/2019/2019oh_1.JPG"
         - img: "/assets/img/2019/2019oh_2.JPG"
         - img: "/assets/img/2019/2019oh_3.JPG"
@@ -136,7 +139,8 @@
       text:
         - para: |
             10th of November 2018 marked a landmark occasion in SUTDCO's history: the first ever concert performed by our club. 
-            Titled 'Impressions', the concert was...
+            Titled 'Impressions', the concert repertoire featured a mixed genre of traditional and pop pieces, such as <i>Reminiscence</i> (忆), <i>Dance of the Yao Tribe</i> (瑶族舞曲), 
+            a medley from <i>Scarlet Heart Ryeo</i> (步步惊心丽 组曲), and themes from Studio Ghibli films <i>Ponyo</i> and <i>My Neighbour Totoro</i> (波儿、龙猫).
       media:
         - img: "/assets/img/2018/impre1_thumb.jpg"
           vid: |
@@ -161,7 +165,9 @@
     - title: "Matriculation Day 2018"
       date: "9th May"
       text:
-        - para: ""
+        - para: |
+            In what is quickly becoming SUTDCO Percussion's favourite go-to piece, <i>Festive Gongs and Drums</i> (喜庆锣鼓) was once again played for the incoming batch of freshmen 
+            during the Fifth Row Showcase on Matriculation Day.
       media:
         - img: "/assets/img/2018/matric2018.jpg"
           vid: |
@@ -170,7 +176,9 @@
     - title: "Lunchtime Performance Mar 2018"
       date: "21st March"
       text:
-        - para: ""
+        - para: |
+            It was a special Lunchtime Performance to remember as SUTDCO, SUTD Chamber Ensemble, and SUTD Wind Ensemble collaborated to bring this performance to the wider SUTD community. 
+            The pieces we performed were <i>The Final Countdown</i> and <i>Bambusa in the Moonlight</i> (月光下的凤尾竹).
       media:
         - img: "/assets/img/2018/2018ltp2.JPG"
         - img: "/assets/img/2018/2018ltp1.jpg"
@@ -178,7 +186,7 @@
     - title: "SUTD Open House 2018"
       date: "3rd and 4th March"
       text:
-        - para: ""
+        - para: "SUTD hosted its annual Open House and SUTDCO presented 2 exuberant pieces: <i>Festive Gongs and Drums</i> (喜庆锣鼓) and <i>Lion</i>, together with our own showcase exhibit."
       media:
         - img: "/assets/img/2018/2018oh_1.JPG"
         - img: "/assets/img/2018/2018oh_2.JPG"
@@ -195,9 +203,9 @@
         - img: "/assets/img/2018/2018oh_7.JPG"
 
     - title: "Chingay 2018"
-      date: "23rd February"
+      date: "23rd and 24th February"
       text:
-        - para: ""
+        - para: "SUTDCO Percussion is proud to have performed with Reverberance at the closing ceremony for Chingay 2018. A truly unique experience!"
       media:
         - img: "/assets/img/2018/Chingay_rehearsal_2.JPG"
         - img: "/assets/img/2018/Chingay.jpg"
@@ -206,7 +214,9 @@
     - title: "Donor Appreciation Event (YZ Foundation)"
       date: "9th January"
       text:
-        - para: ""
+        - para: |
+            SUTDCO was honoured to be able to perform at SUTD's Traditional Chinese Houses as part of an appreciation event for SUTD's donors. 2 pieces were performed: 
+            <i>Han Tian Lei</i> (旱天雷) and <i>Sai Ma</i> (赛马).
       media:
         - img: "/assets/img/2018/9janperf_3.jpg"
         - img: "/assets/img/2018/9janperf_1.jpg"
@@ -224,8 +234,8 @@
       date: "15th October"
       text:
         - para: |
-            SUTDCO's first major event was performing Xi Qing Luo Gu (喜庆锣鼓) for the opening of Upper Changi MRT Station, 
-            which is situated right beside our campus.
+            SUTDCO was honoured to have the opportunity to perform <i>Festive Gongs and Drums</i> (喜庆锣鼓) for the opening of Upper Changi MRT Station, which is situated right beside 
+            our campus.
       media:
         - img: "/assets/img/2017/dtl_opening2.jpg"
           caption: ""
@@ -236,7 +246,9 @@
     - title: "Lunchtime Performance Sept 2017"
       date: "27th September"
       text:
-        - para: "Event description"
+        - para: |
+            SUTDCO performed 2 pieces, <i>Liang Liang</i> (凉凉) and <i>Encounter</i>, at SUTD's campus center as part of SUTD's Lunchtime Performance series. The Lunchtime Performance series is an 
+            hour-long programme held regularly for the performing arts clubs in SUTD to have a platform to showcase the fruits of their practice for the SUTD community.
       media:
         - img: "/assets/img/2017/ltp1.jpg"
           vid: |

@@ -1,0 +1,10 @@
+/* TEAM */
+5th EXCO
+
+/* THANKS */
+OpenSUTD for hosting the site and for providing the resources to make this site possible.
+
+/* SITE */
+Last update: 13th September 2020
+Done using Jekyll (Stylish Bootstrap theme - adapted)
+https://github.com/OpenSUTD/sutd_co

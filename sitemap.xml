@@ -4,13 +4,35 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
-  <loc>https://vidhyav656.github.io/startbootstrap-stylish-portfolio-jekyll/</loc>
-  <lastmod>2018-11-24T06:37:13+00:00</lastmod>
+  <loc>https://sutdco.opensutd.org/</loc>
+  <lastmod>2020-09-13</lastmod>
+  <priority>1.0</priority>
 </url>
 
+<url>
+  <loc>https://sutdco.opensutd.org/events/</loc>
+  <lastmod>2020-09-13</lastmod>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://sutdco.opensutd.org/people/</loc>
+  <lastmod>2020-09-13</lastmod>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://sutdco.opensutd.org/about/</loc>
+  <lastmod>2020-09-13</lastmod>
+  <priority>0.7</priority>
+</url>
+
+<url>
+  <loc>https://sutdco.opensutd.org/contact/</loc>
+  <lastmod>2020-09-13</lastmod>
+  <priority>0.6</priority>
+</url>
 
 </urlset>

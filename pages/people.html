@@ -2,7 +2,8 @@
 layout: page
 title: Our People
 permalink: /people/
-banner: /assets/img/page-masthead.jpg
+banner: /assets/img/page-masthead2.jpg
+description: Meet the people behind SUTDCO!
 ---
 
 <!-- might need a class to resize all the photos to one consistent size -->
@@ -41,7 +42,11 @@ banner: /assets/img/page-masthead.jpg
   <div class="row">
     <!-- each profile will have pic on the left, words on the right -->
     <div class="col-lg-4">
-      <img src="{{ person.img }}" style="width: 20vw; height: auto" />
+      <img
+        src="{{ person.img }}"
+        style="width: 80%; height: auto"
+        loading="lazy"
+      />
     </div>
     <div class="col-lg-8">
       <h3 class="titles">{{ person.title }}</h3>

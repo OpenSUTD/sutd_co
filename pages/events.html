@@ -3,6 +3,7 @@ layout: page
 title: SUTDCO's Events
 permalink: /events/
 banner: /assets/img/page-masthead2.jpg
+description: Check out all of SUTDCO's events and activities over the years!
 ---
 
 <!-- looping through events.yml for content -->
@@ -66,7 +67,11 @@ banner: /assets/img/page-masthead2.jpg
       <!-- if there is no vid -->
       {% else %}
       <div class="carousel-item active">
-        <img src="{{ items.media[j].img }}" class="d-block w-100" />
+        <img
+          src="{{ items.media[j].img }}"
+          class="d-block w-100"
+          loading="lazy"
+        />
         {% if items.media[j].caption %}
         <div class="carousel-caption">
           <p>{{ items.media[j].caption }}</p>
@@ -85,7 +90,11 @@ banner: /assets/img/page-masthead2.jpg
       </div>
       {% else %}
       <div class="carousel-item">
-        <img src="{{ items.media[j].img }}" class="d-block w-100" />
+        <img
+          src="{{ items.media[j].img }}"
+          class="d-block w-100"
+          loading="lazy"
+        />
         {% if items.media[j].caption %}
         <div class="carousel-caption">
           <p>{{ items.media[j].caption }}</p>
@@ -126,7 +135,7 @@ banner: /assets/img/page-masthead2.jpg
         data-slide-to="{{ i }}"
         onclick="reloadVid(event, '{{ carouselName }}Carousel')"
       >
-        <img src="{{ items.media[i].img }}" class="img-fluid" />
+        <img src="{{ items.media[i].img }}" class="img-fluid" loading="lazy" />
       </li>
       {% else %}
       <li
@@ -135,7 +144,7 @@ banner: /assets/img/page-masthead2.jpg
         data-slide-to="{{ i }}"
         onclick="reloadVid(event, '{{ carouselName }}Carousel')"
       >
-        <img src="{{ items.media[i].img }}" class="img-fluid" />
+        <img src="{{ items.media[i].img }}" class="img-fluid" loading="lazy" />
       </li>
       {% endif %} {% endfor %}
     </ol>

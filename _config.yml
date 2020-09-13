@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: SUTD Chinese Orchestra Club
 email: chineseorchestra@club.sutd.edu.sg
-description: Homepage for SUTDCO
+description: SUTD Chinese Orchestra Club (SUTDCO) started in 2015 with just 4 members, and has since grown into a vibrant club actively bringing Chinese music to the community
 
 # keywords are supposed to be how google finds your site but apparently it's not that important anymore
 keywords: # none for now
