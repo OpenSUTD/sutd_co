@@ -1,6 +1,6 @@
 # SUTDCO Homepage Documentation
 
-Updated on 27th May 2020.
+Updated on 13th Sep 2020.
 
 Contact: chineseorchestra@club.sutd.edu.sg
 
@@ -14,7 +14,7 @@ Special thanks to OpenSUTD.
 
 This is the repository for SUTD Chinese Orchestra Club's homepage, which can be found here: https://sutdco.opensutd.org/. This README is mainly to serve as a guide and platform for future Committees should they decide to continue using this resource, as well as some documentation.
 
-We're using Jekyll, a static site generator, published on Github Pages under the OpenSUTD domain. The theme used (as of May 2020) is ["Stylish Portfolio"](https://github.com/vidhyav656/startbootstrap-stylish-portfolio-jekyll); this is its [default view](https://vidhyav656.github.io/startbootstrap-stylish-portfolio-jekyll/). You can easily find more themes by googling for "Jekyll Themes", **but** note that changing the theme essentially means a complete rebuild, since each theme has its own design and content placement (which is the point of the theme, right). If you're going this route, but only just starting out, head to the [Installation](#installation-and-everything-else) section.
+We're using Jekyll, a static site generator, published on Github Pages under the OpenSUTD domain. The theme used (as of Sep 2020) is ["Stylish Portfolio"](https://github.com/vidhyav656/startbootstrap-stylish-portfolio-jekyll); this is its [default view](https://vidhyav656.github.io/startbootstrap-stylish-portfolio-jekyll/). You can easily find more themes by googling for "Jekyll Themes", **but** note that changing the theme essentially means a complete rebuild, since each theme has its own design and content placement (which is the point of the theme, right). If you're going this route, but only just starting out, head to the [Installation](#installation-and-everything-else) section.
 
 Alternatively, you can add/modify design and features to the site, in which case I will direct you to the [Advanced](#advanced) section and beyond.
 
