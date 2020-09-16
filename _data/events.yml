@@ -17,8 +17,18 @@
       text:
         - para: "SUTDCO Introductory Session 2020"
       media:
-        - img: "/assets/img/placeholder.jpg" # it's fine to only have 1 pic for the carousel
+        - img: "/assets/img/discovery.jpg" # it's fine to only have 1 pic for the carousel
           # caption: "photo cr:____" # you can include photo credits with caption, or anything else really
+
+    - title: "Singapore Chinese Music Competititon (SCMC) 2020"
+      date: "23rd - 26th November"
+      text:
+        - para: |
+            SUTDCO Percussion is participating in this year's Singapore Chinese Music Competition as a percussion ensemble. Organised by the Singapore Chinese Orchestra,
+            the SCMC is a good platform to develop and raise the performing standards of our Section, and we hope to be able to grow and learn through this competition. 
+            Do give us your support!
+      media:
+        - img: "/assets/img/placeholder.jpg"
 
 - category: "2020" # name of the tab, which is the category chosen to organise the events under
   default: true # sets the default tab to be shown on page load
@@ -58,7 +68,7 @@
             On 17th of November 2019, SUTDCO hosted its 2nd ever concert, Impressions II, with a repertoire 
             consisting of tracks from cult classic video game <i>Shenmue</i> (莎木) to melodious pieces composed by multi-talented local composer Wang Chenwei 
             (<i>Winds of Affinity</i> 笛缘, <i>Song of the Sisters’ Islands</i> 姐妹岛诵). Notably, the piece <i>Nostalgia of Time, First Movement “Remembrance”</i> (忆念之记忆犹新), 
-            was composed by our founding president, Andy, in commemoration of SUTD's 10th Anniversary and his own memories as a student
+            was composed by our founding president, Andy, in commemoration of SUTD's 10th Anniversary and his own memories as a student.
       media:
         - img: "/assets/img/2019/impre2_thumb.jpg" # used for carousel thumbnail
           vid: |
@@ -108,10 +118,10 @@
       date: "15th May"
       text:
         - para: |
-            As part of the 2019 Freshman Orientation Programme, SUTDCO Percussion presented two separate renditions of <i>Long Teng Hu Yue</i> (龙腾虎跃) 
+            As part of the 2019 Freshman Orientation Programme, SUTDCO Percussion presented two separate renditions of <i>A Well-Matched Fight</i> (龙腾虎跃) 
             to the incoming freshmen.
       media:
-        - img: "/assets/img/2019/2019matric.JPG"
+        - img: "/assets/img/2019/2019matric.jpg"
         - img: "/assets/img/2019/2019matric_thumb1.jpg"
           vid: |
             <iframe width="560" height="315" src="https://www.youtube.com/embed/YL3VG760t98?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -162,6 +172,26 @@
         - img: "/assets/img/2018/impre1_8.jpg"
           caption: "Photo by Evan Sidhi (SUTD PhotogCircle)"
 
+    - title: "Donor Appreciation Event"
+      date: "14th September"
+      text:
+        - para: |
+            A total of 3 pieces: <i>Tian Mi Mi</i> (甜蜜蜜), <i>Rhythm of the Rain</i>, and <i>Yue Liang Dai Biao Wo De Xin</i> (月亮代表我的心), were played for SUTD's esteemed
+            donors by our Club at the Traditional Chinese House.
+      media:
+        - img: "/assets/img/2018/2018donor_1.jpg"
+        - img: "/assets/img/2018/2018donor_2.JPG"
+        - img: "/assets/img/2018/2018donor_3.JPG"
+
+    - title: "Singapore Business Federation Appreciation Dinner Performance at Trade Association Hub"
+      date: "5th June"
+      text:
+        - para: |
+            SUTDCO is grateful to have been invited to perform at an appreciation dinner event for the Singapore Business Federation (SBF), in front of an audience totalling approximately 300.
+      media:
+        - img: "/assets/img/2018/sbf_1.jpg"
+        - img: "/assets/img/2018/sbf_2.jpg"
+
     - title: "Matriculation Day 2018"
       date: "9th May"
       text:
@@ -169,7 +199,7 @@
             In what is quickly becoming SUTDCO Percussion's favourite go-to piece, <i>Festive Gongs and Drums</i> (喜庆锣鼓) was once again played for the incoming batch of freshmen 
             during the Fifth Row Showcase on Matriculation Day.
       media:
-        - img: "/assets/img/2018/matric2018.jpg"
+        - img: "/assets/img/2018/2018matric.jpg"
           vid: |
             <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsutdco%2Fvideos%2F1738994869524694%2F&show_text=false&width=734&height=411&appId" width="734" height="411" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
 
