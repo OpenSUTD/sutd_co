@@ -34,6 +34,17 @@
   default: true # sets the default tab to be shown on page load
   header: "Our Events in 2020 (so far!)" # a one-time title at the start of the page
   content:
+    - title: "Bubblegum K.K. (Animal Crossing) Cover by SUTDCO"
+      date: "September 17th"
+      text:
+        - para: |
+            Though Circuit Breaker forced everyone to be cooped up at home, that didn't mean we were going to stand around! Check out our cover of K.K. Bubblegum from 
+            Animal Crossing that we recorded from home over the summer!
+      media:
+        - img: "/assets/img/2020/bubblegum.jpg"
+          vid: |
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Vuh9QeNQ96w?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     - title: "Guest-playing with Reverberance Percussion Ensemble at Esplanade" # title of each post
       date: "14th February"
       text:
