@@ -43,7 +43,7 @@
       media:
         - img: "/assets/img/2020/bubblegum.jpg"
           vid: |
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Vuh9QeNQ96w?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tkluD5v2IS0?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     - title: "Guest-playing with Reverberance Percussion Ensemble at Esplanade" # title of each post
       date: "14th February"
