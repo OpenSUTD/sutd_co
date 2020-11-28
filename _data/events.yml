@@ -8,26 +8,60 @@
 
 # IMPT: Please make sure each Event 'title' is unique!
 
-- category: "Upcoming"
-  default: false
-  header: "SUTDCO's Upcoming Events"
-  content:
-    - title: "Singapore Chinese Music Competititon (SCMC) 2020"
-      date: "23rd - 26th November"
-      text:
-        - para: |
-            SUTDCO Percussion is participating in this year's Singapore Chinese Music Competition as a percussion ensemble. Organised by the Singapore Chinese Orchestra,
-            the SCMC is a good platform to develop and raise the performing standards of our Section, and we hope to be able to grow and learn through this competition. 
-            Do give us your support!
-      media:
-        - img: "/assets/img/placeholder.jpg"
+# - category: "Upcoming"
+#   default: false
+#   header: "SUTDCO's Upcoming Events"
+#   content:
+#     - title: "Singapore Chinese Music Competititon (SCMC) 2020"
+#       date: "23rd - 26th November"
+#       text:
+#         - para: |
+#             SUTDCO Percussion is participating in this year's Singapore Chinese Music Competition as a percussion ensemble. Organised by the Singapore Chinese Orchestra,
+#             the SCMC is a good platform to develop and raise the performing standards of our Section, and we hope to be able to grow and learn through this competition. 
+#             Do give us your support!
+#       media:
+#         - img: "/assets/img/placeholder.jpg"
 
 - category: "2020" # name of the tab, which is the category chosen to organise the events under
   default: true # sets the default tab to be shown on page load
   header: "Our Events in 2020 (so far!)" # a one-time title at the start of the page
   content:
+    - title: "SUTDCO-Percussion at Singapore Chinese Music Competititon (SCMC) 2020"
+      date: "23rd and 25th November"
+      text: 
+        - para: |
+            6 of our percussionists who represented SUTDCO-Percussion had recently participated in the ensemble category of the Singapore Chinese Music Competition 2020 organised by 
+            Singapore Chinese Orchestra. We are pleased to share that our team was one of the 4 groups to progress into finals! Although our team fell short of a podium finish at the 
+            end, we are proud that they had made it this far - they barely had 2 months to prepare when fifth rows were only allowed to resume with the new semester. 
+            Many congratulations to Jianhui, Xiangyuan, Kewen, Wenling, Jing Wen and Phyllis for pulling it off in such a relatively short span of time! ⁣
+            <br/>
+            <br/>
+            Also, we would like to thank:⁣
+            <br/>(1) everyone who gave your utmost support during the livestream, ⁣
+            <br/>(2) our instructor Mr Benjamin Boo for tirelessly guiding us throughout our journey, and ⁣
+            <br/>(3) Reverberance who had given us lots of support in many ways!⁣
+            ⁣<br/>
+            <br/>
+            Lastly, hearty congratulations to our amazing competitors - Reverberance, Xin Sizhu Ensemble, and The Purple Symphony, for their achievements! It was our honour to be 
+            part of the competition with them, and we enjoyed their performances from the backstage as well.
+            ⁣<br/>
+            <br/>
+            Representatives of SUTDCO-Percussion:⁣
+            <br/>Loh Jing Wen (ESD Term 6)⁣
+            <br/>Shang Xiangyuan (ISTD Term 4)⁣
+            <br/>Tan Jianhui (ISTD Term 4)⁣
+            <br/>Tan Kewen (ISTD Term 4)⁣
+            <br/>Wai Xin Ling Phyllis (ESD Term 6)⁣
+            <br/>Yu Wenling (ESD Term 6)⁣
+      media: 
+        - img: "/assets/img/2020/scmc1.jpg"
+          caption: "Photo by Singapore Chinese Music Competition 新加坡华乐比赛 (FB)"
+        - img: "/assets/img/2020/scmc2.jpg"
+        - img: "/assets/img/2020/scmc3.jpg"
+        - img: "/assets/img/2020/scmc4.jpg"
+
     - title: "Bubblegum K.K. (Animal Crossing) Cover by SUTDCO"
-      date: "September 17th"
+      date: "17th September"
       text:
         - para: |
             Though Circuit Breaker forced everyone to be cooped up at home, that didn't mean we were going to stand around! Check out our cover of K.K. Bubblegum from 
