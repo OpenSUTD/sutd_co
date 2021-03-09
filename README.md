@@ -1,6 +1,6 @@
 # SUTDCO Homepage Documentation
 
-Updated on 13th Sep 2020.
+Updated on 10th March 2021.
 
 Contact: chineseorchestra@club.sutd.edu.sg
 
@@ -24,27 +24,7 @@ If you're only updating the content of the site, the next section, [Content Upda
 
 ---
 
-## Content updates
-
-### Writing new pages
-
-Pages can be written in Markdown format, and it might be better to do so because it is easier to get to writing the content. One disadvantage, however, is that in Markdown you can't customise too much, and if you want heavy styling you'll have to do HTML within the Markdown (like in `about.md`) or straight up write in full HTML (which is most of the pages so far lol). In any case:
-
-To add new pages, go to the `pages` folder, and add a new file. You can name it whatever you want, with the extension `.md`. Then, copy/paste the following (called 'front matter') at the start of the document:
-
-`---`
-
-`layout: the_layout_you_want_the_page_to_inherit`
-
-`title: your_title`
-
-`permalink: /where_your_page_is_located_on_the_site/`
-
-`---`
-
-After editing the above front matter, just write everything as you would for Markdown. You are, of course, free to directly edit the other pages as well.
-
----
+## Content updates (The most important bits are here, esp. the first 2 sections)
 
 ### Adding new content on existing pages
 
@@ -71,6 +51,28 @@ For reference:
 - 'portfolio-x.jpg' are the small, individual background images on the Highlights panels
 - 'bg-masthead.jpg' is the big image on our home screen, the first image that greets you
 - 'bg-callout.jpg' is the background image for the 'Join us' section.
+
+---
+
+### Writing new pages
+
+Pages can be written in Markdown format, and it might be better to do so because it is easier to get to writing the content. One disadvantage, however, is that in Markdown you can't customise too much, and if you want heavy styling you'll have to do HTML within the Markdown (like in `about.md`) or straight up write in full HTML (which is most of the pages so far lol). In any case:
+
+To add new pages, go to the `pages` folder, and add a new file. You can name it whatever you want, with the extension `.md`. Then, copy/paste the following (called 'front matter') at the start of the document:
+
+`---`
+
+`layout: the_layout_you_want_the_page_to_inherit`
+
+`title: your_title`
+
+`permalink: /where_your_page_is_located_on_the_site/`
+
+`---`
+
+After editing the above front matter, just write everything as you would for Markdown. You are, of course, free to directly edit the other pages as well.
+
+---
 
 ---
 
