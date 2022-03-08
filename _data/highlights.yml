@@ -21,7 +21,13 @@
   embedCode: |
     <iframe src="https://www.youtube.com/embed/tkluD5v2IS0?enablejsapi=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Note that the playlists are embedded instead of individual vids
+- id: "socialMedia3"
+  category: "yt"
+  title: "Cover of Xi Shui Chang Liu (细水长流)"
+  date: "7th September 2021"
+  img: "/assets/img/2021/Xishuichangliu_thumbnail.jpg"
+  embedCode: |
+    <iframe src="https://www.youtube.com/watch?v=2Z7IGP9IPjE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe># Note that the playlists are embedded instead of individual vids
 # Third note: For youtube embed, delete these 2 parts in your embed code: <width="560" height="315">
 
 - id: "yt1"
