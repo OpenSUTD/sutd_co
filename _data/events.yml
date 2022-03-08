@@ -26,14 +26,9 @@
    default: true
    header: "Our Events in 2021"
    content:
-     - title: "Why SUTDCO?| SUTDCO 2021 Open House"
-       date: "16th Feb 2021"
-       text:
-         - para: |
-             SUTDCO Percussion is participating in this year's Singapore Chinese Music Competition as a percussion ensemble. Organised by the Singapore Chinese Orchestra,
-             the SCMC is a good platform to develop and raise the performing standards of our Section, and we hope to be able to grow and learn through this competition. 
-             Do give us your support!
-       media:
+       - title: "Why SUTDCO?| SUTDCO 2021 Open House"
+      date: "16th Feb 2021"
+      media:
         - img: "/assets/img/2021/OpenHouse_Thumbnail.jpg"
           vid: |
             <iframe width="560" height="315" src="https://www.youtube.com/watch?v=pT9lRBZCM1U&t=35s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
