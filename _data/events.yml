@@ -22,14 +22,18 @@
 #       media:
 #         - img: "/assets/img/placeholder.jpg"
 
-- category: "2021"
-   default: true
-   header: "Our Events in 2021"
+ - category: "2021" # name of the tab, which is the category chosen to organise the events under
+   default: true # sets the default tab to be shwon on page load
+   header: "Our Events in 2021" # a one-time title at the start of the page
    content:
-       - title: "Why SUTDCO?| SUTDCO 2021 Open House"
-      date: "16th Feb 2021"
-      media:
-        - img: "/assets/img/2021/OpenHouse_Thumbnail.jpg"
+     - title: "Why SUTDCO? | SUTD 2021 Open House"
+       date: "16th Febaurary 2021"
+       text:
+         - para: |
+            <br/>
+
+       media:
+         - img: "/assets/img/2021/OpenHouse_Thumbnail.jpg"
           vid: |
             <iframe width="560" height="315" src="https://www.youtube.com/watch?v=pT9lRBZCM1U&t=35s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
