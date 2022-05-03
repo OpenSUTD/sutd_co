@@ -22,163 +22,6 @@
 #       media:
 #         - img: "/assets/img/placeholder.jpg"
 
-
-            
-
-#     - title: "SUTDCO Percussion with World of Chinese Traditions"
-#       date: "31st March 2021"
-#       text: 
-#         - para: |
-#             Our six SCMC2020 percussionists have recently be involved in a production done by World of Chnewse Traditions, presenting a piece which is called The Rodent's Wedding(老鼠娶亲)!
-#             <br/>
-#             <br/>
-#             The Roden's Wedding(老鼠娶亲) is inspired by the Chinese folklore that goes by the same name as this piece
-#             <br/>Folk Tales about 老鼠娶亲：
-#             <br/>People believe that the third night of CHinese New Year is the time when mice marry their daughters. So, people will go to bed and rest earlier that night in case mice
-#             get disturbed. They will also scatter some rice and cake in the corners as wedding gifts.
-#             <br/>This folk tale shows poeple's hope to achieve a state of non-interface, coexistence in the relationship with mice. Celebrating the wedding of mice, who are fertile,
-#             also expresses people's wish for the family to be prosperous in the following year.
-#             <br/>
-#             With fleible drumbeats and vivid performance, the piece illustrates a humorous and lively scene of the rodent's wedding.
-#       media:
-#         - img: "/assets/img/2021/Rodent's Wedding_thumbnail.jpg"
-#           vid: |
-#             <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?enablejsapi=1&list=PLV_Gsq0eeGS-tSiihU_cYTHEn23leoU3V" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-#         - img: "/assets/img/2021/The Rodent's Wedding.jpg"    
-
-#     - title: "Xi Shui Chang Liu (细水长流) Covered by SUTDCO"
-#       date: "8th September 2021"
-#       text: 
-#         - para: |
-#             Cooperating with SUTD Productions, we hope this piece can bring joy and comfort to everyone in pandemic. 
-#       media: 
-#         - img: "/assets/img/2021/Xishuichangliu_thumbnail.jpg"    
-#           vid: |
-#             <iframe width="560" height="315" src="https://www.youtube.com/watch?v=2Z7IGP9IPjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-- category: "2021" 
-  default: true 
-  header: "Our Events in 2021" 
-  content:
-    - title: "Why SUTDCO? | SUTD Open House 2021"
-      date: "16th Feburary 2021"
-      text: 
-        - para: |
-            A brief introduction of SUTDCO and our achievements. Shared shotries of our members
-      media: 
-        - img: "/assets/img/2021/OpenHouse_Thumbnail.jpg"
-          vid: |
-            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=pT9lRBZCM1U&t=35s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    - title: "SUTD Percussion with World of Chinese Music"
-      date: "31st March 2021"
-      text:
-        - para: |
-            Our sic SCMC Percussionists have recently invited to be invloved in a production done by The World of Chinese Traditions, presenting a piece called The Rodents' Wedding (老鼠娶亲)!
-            <br/>
-            The piece is inspired by the Chinese folklore that goes by the same name.
-            <br/> Folk Tales about The Rodents' Wedding:
-            <br/>
-            People believe that the third night of CHinese New Year is the time when mice marry their daughters. So, people will go to bed and rest earlier that night in case mice get disturbed. They will also scatter some rice and cake in the corners as wedding gifts. 
-            <br/>This folk tale shows poeple's hope to achieve a state of non-interface, coexistence in the relationship with mice. Celebrating the wedding of mice, who are fertile, also expresses people's wish for the family to be prosperous in the following year.
-            <br/>With fleible drumbeats and vivid performance, the piece illustrates a humorous and lively scene of the rodent's wedding.
-      media:
-        - img: "/assets/img/2021/Rodent's Wedding_thumbnail.jpg"
-          vid: |
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?enablejsapi=1&list=PLV_Gsq0eeGS-tSiihU_cYTHEn23leoU3V" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        - img: "/assets/img/2021/The Rodent's Wedding.jpg"    
-
-    - title: "Xi Shui Chang Liu (细水长流) covered by SUTDCO" 
-      date: "8th September 2021"
-      text:
-        - para: |
-            Cooperating with SUTD Production, SUTDCO rearranged this well-known piece and we hope this video can bring everyonge joy and comfort during the pandemic.
-      media:
-        - img: "/assets/img/2021/Xishuichangliu_thumbnail.jpg"
-          vid: |
-            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=2Z7IGP9IPjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-- category: "2019"
-  default: false
-  header: "Our Events in 2019"
-  content:
-    - title: "Impressions II Concert"
-      date: "17th November"
-      text:
-        - para: |
-            On 17th of November 2019, SUTDCO hosted its 2nd ever concert, Impressions II, with a repertoire 
-            consisting of tracks from cult classic video game <i>Shenmue</i> (莎木) to melodious pieces composed by multi-talented local composer Wang Chenwei 
-            (<i>Winds of Affinity</i> 笛缘, <i>Song of the Sisters’ Islands</i> 姐妹岛诵). Notably, the piece <i>Nostalgia of Time, First Movement “Remembrance”</i> (忆念之记忆犹新), 
-            was composed by our founding president, Andy, in commemoration of SUTD's 10th Anniversary and his own memories as a student.
-      media:
-        - img: "/assets/img/2019/impre2_thumb.jpg" # used for carousel thumbnail
-          vid: |
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?enablejsapi=1&list=PLV_Gsq0eeGS-tSiihU_cYTHEn23leoU3V" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        - img: "/assets/img/2019/impre2_1.jpg"
-          caption: "Photo by Nigel Gomes (SUTD PhotogCircle)"
-        - img: "/assets/img/2019/impre2_2.jpg"
-          caption: "Photo by Evan Sidhi (SUTD PhotogCircle)"
-        - img: "/assets/img/2019/impre2_3.jpg"
-          caption: "Photo by Evan Sidhi (SUTD PhotogCircle)"
-        - img: "/assets/img/2019/impre2_4.jpg"
-          caption: "Photo by Nigel Gomes (SUTD PhotogCircle)"
-        - img: "/assets/img/2019/impre2_5.jpg"
-          caption: "Photo by Nigel Gomes (SUTD PhotogCircle)"
-        - img: "/assets/img/2019/impre2_6.jpg"
-          caption: "Photo by Evan Sidhi (SUTD PhotogCircle)"
-        - img: "/assets/img/2019/impre2_7.jpg"
-          caption: "Photo by Nigel Gomes (SUTD PhotogCircle)"
-        - img: "/assets/img/2019/impre2_8.jpg"
-          caption: "Photo by Evan Sidhi (SUTD PhotogCircle)"
-        - img: "/assets/img/2019/impre2_9.jpg"
-          caption: "Photo by Evan Sidhi (SUTD PhotogCircle)"
-        - img: "/assets/img/2019/impre2_10.jpg"
-          caption: "Photo by Wen Kang (SUTD PhotogCircle)"
-        - img: "/assets/img/2019/impre2_11.jpg"
-          caption: "Photo by Wen Kang (SUTD PhotogCircle)"
-        - img: "/assets/img/2019/impre2_12.jpg"
-          caption: "Photo by Wen Kang (SUTD PhotogCircle)"
-        - img: "/assets/img/2019/impre2_13.jpg"
-          caption: "Photo by Sean Ang (SUTD PhotogCircle)"
-        - img: "/assets/img/2019/impre2_14.jpg"
-          caption: "Photo by Sean Ang (SUTD PhotogCircle)"
-        - img: "/assets/img/2019/impre2_15.jpg"
-          caption: "Photo by Sean Ang (SUTD PhotogCircle)"
-
-    - title: "GALA at Shangri-La Hotel"
-      date: "23rd October"
-      text:
-        - para: |
-            SUTDCO was invited to perform at a gala dinner for all donors of SUTD in celebration of our school's 10th Anniversary. 
-            We performed 2 pieces: <i>Festive Gongs and Drums</i> (喜庆锣鼓) and <i>Sai Ma</i> (赛马).
-      media:
-        - img: "/assets/img/2019/2019gala_1.jpg"
-        - img: "/assets/img/2019/2019gala_2.jpg"
-
-    - title: "Matriculation Day - Fifth Row Showcase"
-      date: "15th May"
-      text:
-        - para: |
-            As part of the 2019 Freshman Orientation Programme, SUTDCO Percussion presented two separate renditions of <i>A Well-Matched Fight</i> (龙腾虎跃) 
-            to the incoming freshmen.
-      media:
-        - img: "/assets/img/2019/2019matric.JPG"
-        - img: "/assets/img/2019/2019matric_thumb1.jpg"
-          vid: |
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/YL3VG760t98?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        - img: "/assets/img/2019/2019matric_thumb2.JPG"
-          vid: |
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/lv53bYMeDBI?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    - title: "Open House & Night Fiesta"
-      date: "23rd and 24th February"
-      text:
-        - para: "SUTDCO participated in SUTD's Open House and the first-ever Night Fiesta, in what was a fun-filled and unforgettable experience."
-      media:
-        - img: "/assets/img/2019/2019oh_5.jpg"
-        - img: "/assets/img/2019/2019oh_1.JPG"
-        - img: "/assets/img/2019/2019oh_2.JPG"
-        - img: "/assets/img/2019/2019oh_3.JPG"
-        - img: "/assets/img/2019/2019oh_4.JPG"
-
 - category: "2020" 
   default: true 
   header: "Our Events in 2020 (so far!)" 
@@ -252,7 +95,7 @@
           caption: "Photo by Ferry Chandra (SUTD)"
 
 - category: "2019"
-  default: false
+  default: true
   header: "Our Events in 2019"
   content:
     - title: "Impressions II Concert"
@@ -335,7 +178,7 @@
         - img: "/assets/img/2019/2019oh_4.JPG"
 
 - category: "2018"
-  default: false
+  default: true
   header: "Our Events in 2018"
   content:
     - title: "Impressions Concert"
@@ -450,7 +293,7 @@
             <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsutdco%2Fvideos%2F1618883304869185%2F&show_text=false&width=734&height=411&appId" width="734" height="411" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
 
 - category: "2017"
-  default: false
+  default: true
   header: "Our Events in 2017"
   content:
     - title: "Opening of Upper Changi (DTL) MRT Station"
